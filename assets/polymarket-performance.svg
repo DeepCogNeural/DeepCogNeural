@@ -1,0 +1,79 @@
+<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anonymized Polymarket weather-market live pilot performance snapshot</title>
+  <desc id="desc">Public-safe performance snapshot showing current net value, multiple, return, and data caveat without account identifiers.</desc>
+  <rect width="1200" height="620" rx="0" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="618" rx="18" stroke="#cbd5e1" stroke-width="2"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="60" y="70" fill="#0f172a" font-size="34" font-weight="800">Polymarket weather markets: small-capital live pilot</text>
+    <text x="60" y="108" fill="#475569" font-size="17">Prediction-market contracts treated as probabilistic pricing and execution problems.</text>
+    <g>
+      <rect x="60" y="140" width="345" height="82" rx="12" fill="#ecfeff" stroke="#67e8f9"/>
+      <text x="82" y="172" fill="#0f172a" font-size="18" font-weight="720">Anonymized account snapshot</text>
+      <text x="82" y="198" fill="#475569" font-size="14">No account identifiers or trade rows shown.</text>
+    </g>
+    <g>
+      <rect x="430" y="140" width="300" height="82" rx="12" fill="#fff7ed" stroke="#fdba74"/>
+      <text x="452" y="172" fill="#0f172a" font-size="18" font-weight="720">Research-to-market loop</text>
+      <text x="452" y="198" fill="#475569" font-size="14">EV research, repricing, and execution attribution.</text>
+    </g>
+    <g>
+      <rect x="755" y="140" width="385" height="82" rx="12" fill="#f0fdf4" stroke="#86efac"/>
+      <text x="777" y="172" fill="#0f172a" font-size="18" font-weight="720">Capital efficiency</text>
+      <text x="777" y="198" fill="#475569" font-size="14">$50.00 initial stake to $565.18 current net value.</text>
+    </g>
+
+    <text x="60" y="252" fill="#0f172a" font-size="22" font-weight="760">Capital-growth anchors</text>
+    <line x1="76" y1="505" x2="806" y2="505" stroke="#cbd5e1" stroke-width="1"/>
+    <line x1="76" y1="275" x2="76" y2="505" stroke="#cbd5e1" stroke-width="1"/>
+    <polygon points="76,505 76.0,489.2 296.0,393.3 576.0,306.7 806.0,326.7 806,505" fill="#ccfbf1" opacity="0.75"/>
+    <polyline points="76.0,489.2 296.0,393.3 576.0,306.7 806.0,326.7" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <circle cx="76.0" cy="489.2" r="6" fill="#0f766e"/>
+    <text x="76.0" y="477.2" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$50.00</text>
+    <text x="76.0" y="495.2" text-anchor="middle" fill="#475569" font-size="11">Initial stake</text>
+    <text x="76.0" y="510.2" text-anchor="middle" fill="#64748b" font-size="10">user-provided</text>
+    <circle cx="296.0" cy="393.3" r="6" fill="#0f766e"/>
+    <text x="296.0" y="379.3" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$354.00</text>
+    <text x="296.0" y="397.3" text-anchor="middle" fill="#475569" font-size="11">DB history begins</text>
+    <text x="296.0" y="412.3" text-anchor="middle" fill="#64748b" font-size="10">DB cash</text>
+    <circle cx="576.0" cy="306.7" r="6" fill="#0f766e"/>
+    <text x="576.0" y="292.7" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$628.61</text>
+    <text x="576.0" y="310.7" text-anchor="middle" fill="#475569" font-size="11">Observed cash high</text>
+    <text x="576.0" y="325.7" text-anchor="middle" fill="#64748b" font-size="10">DB cash</text>
+    <circle cx="806.0" cy="326.7" r="6" fill="#0f766e"/>
+    <text x="806.0" y="312.7" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$565.18</text>
+    <text x="806.0" y="330.7" text-anchor="middle" fill="#475569" font-size="11">Latest net value</text>
+    <text x="806.0" y="345.7" text-anchor="middle" fill="#64748b" font-size="10">DB cash + mark</text>
+
+    
+    <g>
+      <rect x="850" y="275" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="866" y="303" fill="#475569" font-size="14" font-weight="650">Current net</text>
+      <text x="866" y="332" fill="#111827" font-size="28" font-weight="780">$565.18</text>
+      <text x="866" y="351" fill="#64748b" font-size="11">cash + open-position mark</text>
+    </g>
+    <g>
+      <rect x="1000" y="275" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="1016" y="303" fill="#475569" font-size="14" font-weight="650">Multiple</text>
+      <text x="1016" y="332" fill="#111827" font-size="28" font-weight="780">11.3x</text>
+      <text x="1016" y="351" fill="#64748b" font-size="11">vs. initial stake</text>
+    </g>
+    <g>
+      <rect x="850" y="393" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="866" y="421" fill="#475569" font-size="14" font-weight="650">Return</text>
+      <text x="866" y="450" fill="#111827" font-size="28" font-weight="780">+1030%</text>
+      <text x="866" y="469" fill="#64748b" font-size="11">gross, mark-to-market</text>
+    </g>
+    <g>
+      <rect x="1000" y="393" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
+      <text x="1016" y="421" fill="#475569" font-size="14" font-weight="650">Trades in DB</text>
+      <text x="1016" y="450" fill="#111827" font-size="28" font-weight="780">614</text>
+      <text x="1016" y="469" fill="#64748b" font-size="11">anonymized count</text>
+    </g>
+
+    <g>
+      <rect x="60" y="542" width="1080" height="42" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
+      <text x="82" y="568" fill="#475569" font-size="13">Snapshot: 2026-06-06 19:50 UTC. Current net = USDC cash + open positions marked at snapshot prices. $50 initial stake is user-provided; DB balance history begins after initial growth.</text>
+    </g>
+  </g>
+</svg>

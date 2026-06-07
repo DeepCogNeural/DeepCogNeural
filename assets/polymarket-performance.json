@@ -1,0 +1,22 @@
+{
+  "generated_at_utc": "2026-06-07T03:56:19Z",
+  "snapshot_timestamp_utc": "2026-06-06T19:50:00.919Z",
+  "balance_history_start_utc": "2026-05-04T18:35:46.315Z",
+  "first_trade_utc": "2026-05-05T05:26:38.994Z",
+  "last_trade_utc": "2026-06-06T19:14:00.487Z",
+  "initial_stake_usdc": 50.0,
+  "initial_stake_source": "user_provided",
+  "cash_usdc": 524.222342,
+  "open_positions_mark_usdc": 40.9553,
+  "open_positions_initial_value_usdc": 1133.8286,
+  "open_positions_count": 100,
+  "current_net_value_usdc": 565.177642,
+  "gross_profit_vs_initial_usdc": 515.177642,
+  "return_vs_initial_pct": 1030.355284,
+  "multiple_vs_initial": 11.30355284,
+  "balance_history_start_cash_usdc": 353.99976,
+  "max_observed_cash_usdc": 628.613405,
+  "min_observed_cash_usdc": 182.052439,
+  "trades_in_db": 614,
+  "public_safety_note": "No account identifiers, token IDs, order IDs, market titles, or individual trade rows are included. Current net value equals latest USDC cash plus open positions marked at snapshot prices. The initial stake is user-provided because the DB history starts after the initial deposit."
+}
