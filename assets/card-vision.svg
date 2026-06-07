@@ -1,0 +1,15 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bayesian observer models for optic-flow perception card</title>
+  <desc id="desc">Published Bayesian observer models of human heading perception and action bias.</desc>
+  <rect width="1200" height="230" rx="18" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="228" rx="17" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="30" y="35" width="160" height="160" rx="24" fill="#1e3a8a"/>
+  <path d="M62 116 Q110 50 158 116 Q110 180 62 116Z" stroke="#bfdbfe" stroke-width="9" fill="none"/>
+  <circle cx="110" cy="116" r="17" fill="#facc15"/>
+  <path d="M70 152 C96 128 124 180 154 136" stroke="#93c5fd" stroke-width="6" stroke-linecap="round"/>
+  <text x="230" y="60" fill="#0f172a" font-size="29" font-weight="760" font-family="Inter, ui-sans-serif, system-ui">Bayesian Vision Observer Models</text>
+  <text x="230" y="96" fill="#334155" font-size="18" font-family="Inter, ui-sans-serif, system-ui">Published optic-flow work on heading perception.</text>
+  <text x="230" y="132" fill="#475569" font-size="16" font-family="Inter, ui-sans-serif, system-ui">Efficient coding plus perception-to-action mapping.</text>
+  <text x="230" y="168" fill="#1d4ed8" font-size="15" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">Bayesian inference | Fisher information | ideal observers</text>
+  <text x="230" y="194" fill="#1d4ed8" font-size="15" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">optic flow | human navigation | VR/XR perception</text>
+</svg>

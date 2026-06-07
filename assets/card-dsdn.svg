@@ -1,0 +1,16 @@
+<svg width="1200" height="230" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Dynamic Stochastic Divisive Normalization card</title>
+  <desc id="desc">Analytical neural variability model with random numerator and denominator.</desc>
+  <rect width="1200" height="230" rx="18" fill="#f8fafc"/>
+  <rect x="1" y="1" width="1198" height="228" rx="17" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="30" y="35" width="160" height="160" rx="24" fill="#0f172a"/>
+  <text x="72" y="86" fill="#e0f2fe" font-size="26" font-weight="800" font-family="Inter, ui-sans-serif, system-ui">X<tspan baseline-shift="sub" font-size="15">t</tspan></text>
+  <path d="M64 105 H156" stroke="#94a3b8" stroke-width="7" stroke-linecap="round"/>
+  <text x="72" y="152" fill="#fef3c7" font-size="26" font-weight="800" font-family="Inter, ui-sans-serif, system-ui">Z<tspan baseline-shift="sub" font-size="15">t</tspan></text>
+  <path d="M44 180 C70 142 92 194 120 158 C146 124 166 168 180 142" stroke="#38bdf8" stroke-width="7" stroke-linecap="round"/>
+  <text x="230" y="60" fill="#0f172a" font-size="29" font-weight="760" font-family="Inter, ui-sans-serif, system-ui">Stochastic Normalization Dynamics</text>
+  <text x="230" y="96" fill="#334155" font-size="18" font-family="Inter, ui-sans-serif, system-ui">Random input divided by random normalization.</text>
+  <text x="230" y="132" fill="#475569" font-size="16" font-family="Inter, ui-sans-serif, system-ui">Closed-form mean, variance, Fano factor, and peak timing.</text>
+  <text x="230" y="168" fill="#0f766e" font-size="15" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">stochastic processes | ratio models | MLE</text>
+  <text x="230" y="194" fill="#0f766e" font-size="15" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">latent-state estimation | neural time series</text>
+</svg>
