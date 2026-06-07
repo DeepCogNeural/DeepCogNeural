@@ -47,7 +47,6 @@ Public research code for studying how uncertainty in natural-image segmentation 
 ### Bayesian perception-action modeling
 
 Co-first author on a PLOS Computational Biology paper modeling how response-range constraints shape heading estimates from optic flow.
-
 First author on a Journal of Vision paper on attractive serial dependence in heading perception.
 
 **Links:** [PLOS Computational Biology 2025](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147) | [Journal of Vision 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/)
