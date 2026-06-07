@@ -12,31 +12,26 @@ I am a Ph.D. researcher in computational neuroscience building probabilistic mod
   <a href="mailto:linghaoxu11@gmail.com">Email</a> |
   <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">SUN V1 project</a> |
   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147">PLOS Computational Biology</a> |
-  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/">Journal of Vision</a> |
-  <a href="https://polymarket.com/0x75CCCAceD848ab3BD789057327E293E56B176B15">Forecasting track record</a>
+  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/">Journal of Vision</a>
 </p>
 
 ## Selected work
 
-<table>
-  <tr>
-    <td width="33%">
-      <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">
-        <img src="assets/card-sun.svg" alt="SUN - segmentation uncertainty for V1 dynamics" width="100%">
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147">
-        <img src="assets/card-bayes.svg" alt="Bayesian perception-action modeling" width="100%">
-      </a>
-    </td>
-    <td width="33%">
-      <a href="https://polymarket.com/0x75CCCAceD848ab3BD789057327E293E56B176B15">
-        <img src="assets/card-forecasting.svg" alt="Forecasting and decision research system" width="100%">
-      </a>
-    </td>
-  </tr>
-</table>
+<p>
+  <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">
+    <img src="assets/card-sun.svg" alt="SUN - segmentation uncertainty for V1 dynamics" width="100%">
+  </a>
+</p>
+
+<p>
+  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147">
+    <img src="assets/card-bayes.svg" alt="Bayesian perception-action modeling" width="100%">
+  </a>
+</p>
+
+<p>
+  <img src="assets/card-forecasting.svg" alt="Forecasting and decision research system" width="100%">
+</p>
 
 ### SUN: segmentation uncertainty for V1 dynamics
 
@@ -53,9 +48,7 @@ First author on a Journal of Vision paper on attractive serial dependence in hea
 
 ### Forecasting and decision systems
 
-Built a live research pipeline for weather prediction markets: order-book snapshots, weather-provider features, offline rule evaluation, risk caps, monitored execution, and reconciliation. Public evidence is linked through market and wallet activity; implementation details remain private.
-
-**Links:** [Polymarket activity](https://polymarket.com/0x75CCCAceD848ab3BD789057327E293E56B176B15) | [Wallet activity](https://polygonscan.com/address/0x75cccaced848ab3bd789057327e293e56b176b15#tokentxns)
+Built private research infrastructure for weather prediction-market experiments: data collection, feature engineering, offline rule evaluation, risk controls, monitored execution, and reconciliation. I can discuss architecture and evaluation details in interviews.
 
 ## Research profile
 
