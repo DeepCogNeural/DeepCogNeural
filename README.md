@@ -11,7 +11,7 @@ My background is mathematics-heavy: stochastic-process modeling, Bayesian infere
 My current research focus is **dynamic stochastic normalization**: how neural variability evolves when both the input drive and the normalization signal are random variables, and how to analytically infer not only variability but also its dynamics.
 
 <p>
-  <a href="mailto:linghaoxu11@gmail.com">Email</a> |
+  Email: linghaoxu11 [at] gmail [dot] com |
   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147">PLOS Computational Biology</a> |
   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/">Journal of Vision</a> |
   <a href="https://github.com/DeepCogNeural/bayesian-heading-observer">Observer code</a> |
@@ -21,6 +21,8 @@ My current research focus is **dynamic stochastic normalization**: how neural va
 <p>
   <img src="assets/skills-map.svg" alt="Core skill set: math, neural dynamics, vision, quant research, and research systems" width="100%">
 </p>
+
+**Keywords:** stochastic processes, Bayesian inference, dynamic stochastic normalization, neural variability, V1 dynamics, Fano factor, Bayesian observer models, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, Python, SQL, NumPy, SciPy, Pandas.
 
 ## Selected work
 

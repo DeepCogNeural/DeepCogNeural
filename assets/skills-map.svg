@@ -1,64 +1,72 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1500" height="430" viewBox="0 0 1500 430" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Linghao Xu core skill set</title>
-  <desc id="desc">A compact skill tree connecting mathematical modeling, neural and vision research, quantitative markets, and research systems.</desc>
-  <rect width="1200" height="360" fill="#FAF9F5"/>
-  <rect x="1" y="1" width="1198" height="358" rx="18" stroke="#E3DACC" stroke-width="2"/>
-  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
-    <text x="50" y="52" fill="#141413" font-size="28" font-weight="720">Core skill set</text>
-    <text x="50" y="78" fill="#3D3D3A" font-size="15">Mathematical modeling that carries across neural dynamics, perception, and probabilistic markets.</text>
+  <desc id="desc">Core skills in mathematical modeling, neural dynamics, vision and VR/XR perception, quantitative research, and research systems.</desc>
+  <rect width="1500" height="430" rx="22" fill="#FAF7F0"/>
+  <rect x="1.5" y="1.5" width="1497" height="427" rx="20.5" stroke="#DDD5C8" stroke-width="3"/>
+  <defs>
+    <filter id="softShadow" x="-8%" y="-12%" width="116%" height="130%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#3A2D1F" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="48" y="58" fill="#161616" font-size="31" font-weight="760">Core skill set</text>
+    <text x="48" y="88" fill="#5F574D" font-size="17">Mathematical modeling across neural dynamics, perception, and probabilistic markets.</text>
 
-    <rect x="50" y="118" width="242" height="202" rx="14" fill="#141413"/>
-    <text x="76" y="153" fill="#FAF9F5" font-size="19" font-weight="720">First-principles math</text>
-    <text x="76" y="186" fill="#E3DACC" font-size="14">Stochastic processes</text>
-    <text x="76" y="214" fill="#E3DACC" font-size="14">Bayesian inference</text>
-    <text x="76" y="242" fill="#E3DACC" font-size="14">Closed-form moments</text>
-    <text x="76" y="270" fill="#E3DACC" font-size="14">MLE / optimization</text>
-    <text x="76" y="298" fill="#E3DACC" font-size="14">Efficient coding</text>
-
-    <line x1="292" y1="219" x2="344" y2="219" stroke="#D97757" stroke-width="3"/>
-    <circle cx="344" cy="219" r="5" fill="#D97757"/>
-
-    <g>
-      <rect x="370" y="112" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
-      <text x="394" y="143" fill="#141413" font-size="18" font-weight="700">Neural dynamics</text>
-      <text x="394" y="171" fill="#3D3D3A" font-size="13">Dynamic stochastic normalization</text>
-      <text x="394" y="193" fill="#788C5D" font-size="13">V1 variability, Fano factor, latent states</text>
+    <g filter="url(#softShadow)">
+      <rect x="48" y="132" width="304" height="236" rx="18" fill="#171717"/>
+      <text x="78" y="174" fill="#FAF7F0" font-size="21" font-weight="740">First-principles math</text>
+      <text x="78" y="212" fill="#E8DFD2" font-size="15.5">Stochastic processes</text>
+      <text x="78" y="244" fill="#E8DFD2" font-size="15.5">Bayesian inference</text>
+      <text x="78" y="276" fill="#E8DFD2" font-size="15.5">Closed-form moments</text>
+      <text x="78" y="308" fill="#E8DFD2" font-size="15.5">MLE / optimization</text>
+      <text x="78" y="340" fill="#E8DFD2" font-size="15.5">Efficient coding</text>
     </g>
 
-    <g>
-      <rect x="370" y="225" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
-      <text x="394" y="256" fill="#141413" font-size="18" font-weight="700">Vision / VR-XR</text>
-      <text x="394" y="284" fill="#3D3D3A" font-size="13">Bayesian observer models</text>
-      <text x="394" y="306" fill="#788C5D" font-size="13">Optic flow, heading, perception-action bias</text>
+    <path d="M352 250 H416" stroke="#D97757" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="416" cy="250" r="6" fill="#D97757"/>
+
+    <g filter="url(#softShadow)">
+      <rect x="440" y="132" width="318" height="102" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
+      <text x="470" y="174" fill="#171717" font-size="21" font-weight="720">Neural dynamics</text>
+      <text x="470" y="207" fill="#4B423A" font-size="15">Dynamic stochastic normalization</text>
+      <text x="470" y="229" fill="#6E7F4E" font-size="14">V1 variability, Fano dynamics</text>
     </g>
 
-    <g>
-      <rect x="668" y="112" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
-      <text x="692" y="143" fill="#141413" font-size="18" font-weight="700">Quant research</text>
-      <text x="692" y="171" fill="#3D3D3A" font-size="13">Probabilistic pricing and EV</text>
-      <text x="692" y="193" fill="#788C5D" font-size="13">Signals, calibration, microstructure</text>
+    <g filter="url(#softShadow)">
+      <rect x="440" y="264" width="318" height="102" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
+      <text x="470" y="306" fill="#171717" font-size="21" font-weight="720">Vision / VR-XR</text>
+      <text x="470" y="339" fill="#4B423A" font-size="15">Bayesian observer models</text>
+      <text x="470" y="361" fill="#6E7F4E" font-size="14">Optic flow, heading bias</text>
     </g>
 
-    <g>
-      <rect x="668" y="225" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
-      <text x="692" y="256" fill="#141413" font-size="18" font-weight="700">Research systems</text>
-      <text x="692" y="284" fill="#3D3D3A" font-size="13">Python, SQL, NumPy/SciPy/Pandas</text>
-      <text x="692" y="306" fill="#788C5D" font-size="13">Backtests, pipelines, live evaluation</text>
+    <path d="M758 183 H808" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M758 315 H808" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
+
+    <g filter="url(#softShadow)">
+      <rect x="830" y="132" width="344" height="102" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
+      <text x="860" y="174" fill="#171717" font-size="21" font-weight="720">Quant research</text>
+      <text x="860" y="207" fill="#4B423A" font-size="15">Probabilistic pricing and EV</text>
+      <text x="860" y="229" fill="#6E7F4E" font-size="14">Signals, calibration, microstructure</text>
     </g>
 
-    <g>
-      <rect x="966" y="112" width="154" height="206" rx="14" fill="#F0EEE6" stroke="#D1CFC5"/>
-      <text x="990" y="146" fill="#141413" font-size="18" font-weight="700">Pattern</text>
-      <text x="990" y="178" fill="#3D3D3A" font-size="13">Noise model</text>
-      <text x="990" y="206" fill="#3D3D3A" font-size="13">Inference</text>
-      <text x="990" y="234" fill="#3D3D3A" font-size="13">Prediction</text>
-      <text x="990" y="262" fill="#3D3D3A" font-size="13">Validation</text>
-      <text x="990" y="290" fill="#D97757" font-size="13" font-weight="700">Research to prod</text>
+    <g filter="url(#softShadow)">
+      <rect x="830" y="264" width="344" height="102" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
+      <text x="860" y="306" fill="#171717" font-size="21" font-weight="720">Research systems</text>
+      <text x="860" y="339" fill="#4B423A" font-size="15">Python, SQL, NumPy/SciPy</text>
+      <text x="860" y="361" fill="#6E7F4E" font-size="14">Backtests, pipelines, evaluation</text>
     </g>
 
-    <line x1="618" y1="158" x2="668" y2="158" stroke="#D97757" stroke-width="2"/>
-    <line x1="618" y1="272" x2="668" y2="272" stroke="#D97757" stroke-width="2"/>
-    <line x1="916" y1="158" x2="966" y2="158" stroke="#D97757" stroke-width="2"/>
-    <line x1="916" y1="272" x2="966" y2="272" stroke="#D97757" stroke-width="2"/>
+    <path d="M1174 183 H1218" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
+    <path d="M1174 315 H1218" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
+
+    <g filter="url(#softShadow)">
+      <rect x="1238" y="132" width="232" height="234" rx="18" fill="#F0ECE2" stroke="#D0C8BA" stroke-width="1.5"/>
+      <text x="1268" y="174" fill="#171717" font-size="21" font-weight="720">Pattern</text>
+      <text x="1268" y="211" fill="#4B423A" font-size="15">Noise model</text>
+      <text x="1268" y="243" fill="#4B423A" font-size="15">Inference</text>
+      <text x="1268" y="275" fill="#4B423A" font-size="15">Prediction</text>
+      <text x="1268" y="307" fill="#4B423A" font-size="15">Validation</text>
+      <text x="1268" y="341" fill="#D97757" font-size="15" font-weight="740">Research to prod</text>
+    </g>
   </g>
 </svg>
