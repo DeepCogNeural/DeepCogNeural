@@ -4,7 +4,7 @@
 
 # Linghao Xu
 
-I am a Ph.D. researcher in computational neuroscience in the Ruben Coen-Cagli Lab at Albert Einstein College of Medicine. My earlier perception research was with Alan Stocker at the University of Pennsylvania.
+I am a Ph.D. researcher in computational neuroscience in Dr. Ruben Coen-Cagli's lab at Albert Einstein College of Medicine. My earlier perception research was with Prof. Alan Stocker at the University of Pennsylvania.
 
 My background is mathematics-heavy: stochastic-process modeling, Bayesian inference, efficient coding, closed-form moment derivations, maximum-likelihood estimation, and empirical validation on neural, behavioral, and market data.
 
