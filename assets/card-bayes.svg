@@ -1,0 +1,16 @@
+<svg width="380" height="220" viewBox="0 0 380 220" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Bayesian perception-action card</title>
+  <desc id="desc">Bayesian models of heading perception and response mapping.</desc>
+  <rect width="380" height="220" rx="18" fill="#f8fafc"/>
+  <rect x="1" y="1" width="378" height="218" rx="17" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="24" y="24" width="64" height="64" rx="16" fill="#1e3a8a"/>
+  <path d="M38 60 Q56 32 74 60 Q56 82 38 60Z" stroke="#bfdbfe" stroke-width="4" fill="none"/>
+  <circle cx="56" cy="60" r="7" fill="#facc15"/>
+  <text x="104" y="42" fill="#0f172a" font-size="22" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">Bayesian vision</text>
+  <text x="104" y="66" fill="#334155" font-size="14" font-family="Inter, ui-sans-serif, system-ui">Perception-action modeling</text>
+  <text x="24" y="122" fill="#0f172a" font-size="15" font-weight="650" font-family="Inter, ui-sans-serif, system-ui">Published modeling work</text>
+  <text x="24" y="149" fill="#475569" font-size="14" font-family="Inter, ui-sans-serif, system-ui">Efficient-coding priors, posterior estimates,</text>
+  <text x="24" y="171" fill="#475569" font-size="14" font-family="Inter, ui-sans-serif, system-ui">and response mappings for optic flow tasks.</text>
+  <text x="24" y="197" fill="#1d4ed8" font-size="13" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">PLOS Comp Bio 2025 + JOV 2022</text>
+</svg>
+
