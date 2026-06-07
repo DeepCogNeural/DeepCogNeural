@@ -1,445 +1,339 @@
 {
-  "generated_at_utc": "2026-06-07T04:29:28Z",
-  "snapshot_timestamp_utc": "2026-06-07T04:05:00.853Z",
+  "generated_date_utc": "2026-06-07",
+  "snapshot_date_utc": "2026-06-07",
   "initial_stake_usdc": 50.0,
   "initial_stake_source": "user_provided",
-  "cash_usdc": 665.182464,
-  "open_positions_mark_usdc": 0.0658,
-  "open_positions_count": 2,
-  "current_net_value_usdc": 665.248264,
-  "return_vs_initial_pct": 1230.496528,
-  "multiple_vs_initial": 13.30496528,
-  "first_trade_utc": "2026-05-05T05:26:38.994Z",
-  "last_trade_utc": "2026-06-07T03:40:01.738Z",
-  "trades_in_db": 622,
+  "latest_account_value_usdc": 665.25,
+  "return_vs_initial_pct": 1230.5,
+  "multiple_vs_initial": 13.3,
   "source_refresh_minutes": 15,
   "public_svg_update_policy": "static_asset_updates_only_when_regenerated_and_pushed",
   "series": [
     {
       "date": "2026-03-19",
-      "value_usdc": 50.0,
-      "source": "user_provided_initial_stake",
-      "return_pct": 0.0
+      "return_pct": 0,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-20",
-      "value_usdc": 47.811074995,
-      "source": "realized_pnl_daily",
-      "return_pct": -4.377850010000007
+      "return_pct": -4,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-21",
-      "value_usdc": 49.279774995,
-      "source": "realized_pnl_daily",
-      "return_pct": -1.440450010000005
+      "return_pct": -1,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-22",
-      "value_usdc": 48.73903780292639,
-      "source": "realized_pnl_daily",
-      "return_pct": -2.5219243941472236
+      "return_pct": -3,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-23",
-      "value_usdc": 47.017143258,
-      "source": "realized_pnl_daily",
-      "return_pct": -5.965713484000002
+      "return_pct": -6,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-24",
-      "value_usdc": 43.446493116976114,
-      "source": "realized_pnl_daily",
-      "return_pct": -13.107013766047771
+      "return_pct": -13,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-25",
-      "value_usdc": 42.31599360799999,
-      "source": "realized_pnl_daily",
-      "return_pct": -15.368012784000019
+      "return_pct": -15,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-26",
-      "value_usdc": 41.550832606073214,
-      "source": "realized_pnl_daily",
-      "return_pct": -16.898334787853575
+      "return_pct": -17,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-27",
-      "value_usdc": 38.93286326207322,
-      "source": "realized_pnl_daily",
-      "return_pct": -22.13427347585356
+      "return_pct": -22,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-28",
-      "value_usdc": 36.30053766241303,
-      "source": "realized_pnl_daily",
-      "return_pct": -27.39892467517394
+      "return_pct": -27,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-29",
-      "value_usdc": 24.456636669042332,
-      "source": "realized_pnl_daily",
-      "return_pct": -51.086726661915336
+      "return_pct": -51,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-30",
-      "value_usdc": 26.50763633129363,
-      "source": "realized_pnl_daily",
-      "return_pct": -46.98472733741275
+      "return_pct": -47,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-03-31",
-      "value_usdc": 28.144848687729585,
-      "source": "realized_pnl_daily",
-      "return_pct": -43.71030262454083
+      "return_pct": -44,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-01",
-      "value_usdc": 31.709191522729586,
-      "source": "realized_pnl_daily",
-      "return_pct": -36.58161695454083
+      "return_pct": -37,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-02",
-      "value_usdc": 34.43747397272959,
-      "source": "realized_pnl_daily",
-      "return_pct": -31.125052054540813
+      "return_pct": -31,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-03",
-      "value_usdc": 53.49268377572959,
-      "source": "realized_pnl_daily",
-      "return_pct": 6.985367551459176
+      "return_pct": 7,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-04",
-      "value_usdc": 54.355673385328714,
-      "source": "realized_pnl_daily",
-      "return_pct": 8.711346770657435
+      "return_pct": 9,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-05",
-      "value_usdc": 69.00011846805907,
-      "source": "realized_pnl_daily",
-      "return_pct": 38.000236936118135
+      "return_pct": 38,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-06",
-      "value_usdc": 73.8751610676991,
-      "source": "realized_pnl_daily",
-      "return_pct": 47.75032213539818
+      "return_pct": 48,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-07",
-      "value_usdc": 78.84110815824516,
-      "source": "realized_pnl_daily",
-      "return_pct": 57.68221631649033
+      "return_pct": 58,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-08",
-      "value_usdc": 76.00151412424518,
-      "source": "realized_pnl_daily",
-      "return_pct": 52.003028248490345
+      "return_pct": 52,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-09",
-      "value_usdc": 82.18930647224518,
-      "source": "realized_pnl_daily",
-      "return_pct": 64.37861294449037
+      "return_pct": 64,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-10",
-      "value_usdc": 82.73115461824517,
-      "source": "realized_pnl_daily",
-      "return_pct": 65.46230923649034
+      "return_pct": 65,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-11",
-      "value_usdc": 84.35610883881135,
-      "source": "realized_pnl_daily",
-      "return_pct": 68.7122176776227
+      "return_pct": 69,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-12",
-      "value_usdc": 75.83692643636459,
-      "source": "realized_pnl_daily",
-      "return_pct": 51.673852872729185
+      "return_pct": 52,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-13",
-      "value_usdc": 75.0851677180799,
-      "source": "realized_pnl_daily",
-      "return_pct": 50.17033543615981
+      "return_pct": 50,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-14",
-      "value_usdc": 76.67487820287975,
-      "source": "realized_pnl_daily",
-      "return_pct": 53.34975640575949
+      "return_pct": 53,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-15",
-      "value_usdc": 91.67835863262043,
-      "source": "realized_pnl_daily",
-      "return_pct": 83.35671726524086
+      "return_pct": 83,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-16",
-      "value_usdc": 88.56858014374379,
-      "source": "realized_pnl_daily",
-      "return_pct": 77.13716028748759
+      "return_pct": 77,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-04-17",
-      "value_usdc": 103.6606105462328,
-      "source": "realized_pnl_daily",
-      "return_pct": 107.32122109246562
+      "return_pct": 107,
+      "source_segment": "early_realized_pnl"
     },
     {
       "date": "2026-05-04",
-      "timestamp_utc": "2026-05-04T22:37:01.548Z",
-      "value_usdc": 353.99976,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 607.99952
+      "return_pct": 608,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-05",
-      "timestamp_utc": "2026-05-05T22:37:01.169Z",
-      "value_usdc": 368.054241,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 636.108482
+      "return_pct": 636,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-06",
-      "timestamp_utc": "2026-05-06T22:37:01.016Z",
-      "value_usdc": 350.070981,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 600.141962
+      "return_pct": 600,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-07",
-      "timestamp_utc": "2026-05-07T22:37:00.894Z",
-      "value_usdc": 392.749773,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 685.499546
+      "return_pct": 685,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-08",
-      "timestamp_utc": "2026-05-08T22:37:00.997Z",
-      "value_usdc": 381.519626,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 663.039252
+      "return_pct": 663,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-09",
-      "timestamp_utc": "2026-05-09T22:37:01.046Z",
-      "value_usdc": 381.519626,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 663.039252
+      "return_pct": 663,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-10",
-      "timestamp_utc": "2026-05-10T06:37:00.918Z",
-      "value_usdc": 381.519626,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 663.039252
+      "return_pct": 663,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-11",
-      "timestamp_utc": "2026-05-11T23:50:00.965Z",
-      "value_usdc": 348.964956,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 597.929912
+      "return_pct": 598,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-12",
-      "timestamp_utc": "2026-05-12T23:50:01.113Z",
-      "value_usdc": 303.556197,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 507.112394
+      "return_pct": 507,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-13",
-      "timestamp_utc": "2026-05-13T23:50:01.013Z",
-      "value_usdc": 331.336527,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 562.673054
+      "return_pct": 563,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-14",
-      "timestamp_utc": "2026-05-14T23:50:01.251Z",
-      "value_usdc": 319.677984,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 539.355968
+      "return_pct": 539,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-15",
-      "timestamp_utc": "2026-05-15T23:50:00.847Z",
-      "value_usdc": 364.866594,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 629.733188
+      "return_pct": 630,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-16",
-      "timestamp_utc": "2026-05-16T23:50:03.099Z",
-      "value_usdc": 362.523272,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 625.046544
+      "return_pct": 625,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-17",
-      "timestamp_utc": "2026-05-17T23:52:17.640Z",
-      "value_usdc": 409.597003,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 719.1940060000001
+      "return_pct": 719,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-18",
-      "timestamp_utc": "2026-05-18T23:50:00.918Z",
-      "value_usdc": 409.597003,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 719.1940060000001
+      "return_pct": 719,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-19",
-      "timestamp_utc": "2026-05-19T23:50:00.909Z",
-      "value_usdc": 409.597003,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 719.1940060000001
+      "return_pct": 719,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-20",
-      "timestamp_utc": "2026-05-20T23:50:00.926Z",
-      "value_usdc": 457.833488,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 815.666976
+      "return_pct": 816,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-21",
-      "timestamp_utc": "2026-05-21T23:50:00.892Z",
-      "value_usdc": 366.217115,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 632.43423
+      "return_pct": 632,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-22",
-      "timestamp_utc": "2026-05-22T23:50:00.859Z",
-      "value_usdc": 356.316569,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 612.633138
+      "return_pct": 613,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-23",
-      "timestamp_utc": "2026-05-23T23:50:00.861Z",
-      "value_usdc": 334.167943,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 568.335886
+      "return_pct": 568,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-24",
-      "timestamp_utc": "2026-05-24T23:50:00.951Z",
-      "value_usdc": 299.715425,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 499.43084999999996
+      "return_pct": 499,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-25",
-      "timestamp_utc": "2026-05-25T23:50:00.972Z",
-      "value_usdc": 315.247468,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 530.494936
+      "return_pct": 530,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-26",
-      "timestamp_utc": "2026-05-26T23:50:01.034Z",
-      "value_usdc": 345.840794,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 591.681588
+      "return_pct": 592,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-27",
-      "timestamp_utc": "2026-05-27T23:50:00.990Z",
-      "value_usdc": 262.662311,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 425.3246219999999
+      "return_pct": 425,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-28",
-      "timestamp_utc": "2026-05-28T23:50:01.304Z",
-      "value_usdc": 431.848247,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 763.696494
+      "return_pct": 764,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-29",
-      "timestamp_utc": "2026-05-29T23:50:01.018Z",
-      "value_usdc": 381.861225,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 663.72245
+      "return_pct": 664,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-30",
-      "timestamp_utc": "2026-05-30T23:50:00.917Z",
-      "value_usdc": 464.96285,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 829.9257000000001
+      "return_pct": 830,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-05-31",
-      "timestamp_utc": "2026-05-31T23:50:00.973Z",
-      "value_usdc": 526.62987,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 953.25974
+      "return_pct": 953,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-01",
-      "timestamp_utc": "2026-06-01T23:50:00.930Z",
-      "value_usdc": 590.97894,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 1081.95788
+      "return_pct": 1082,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-02",
-      "timestamp_utc": "2026-06-02T23:50:01.017Z",
-      "value_usdc": 622.043242,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 1144.086484
+      "return_pct": 1144,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-03",
-      "timestamp_utc": "2026-06-03T23:50:01.024Z",
-      "value_usdc": 628.613405,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 1157.22681
+      "return_pct": 1157,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-04",
-      "timestamp_utc": "2026-06-04T23:50:00.915Z",
-      "value_usdc": 618.716656,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 1137.433312
+      "return_pct": 1137,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-05",
-      "timestamp_utc": "2026-06-05T23:51:59.504Z",
-      "value_usdc": 584.495729,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 1068.991458
+      "return_pct": 1069,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-06",
-      "timestamp_utc": "2026-06-06T23:50:01.051Z",
-      "value_usdc": 521.330764,
-      "source": "daily_closing_balance_snapshot",
-      "return_pct": 942.661528
+      "return_pct": 943,
+      "source_segment": "account_snapshot"
     },
     {
       "date": "2026-06-07",
-      "timestamp_utc": "2026-06-07T04:05:00.853Z",
-      "value_usdc": 665.248264,
-      "source": "latest_cash_plus_open_position_mark",
-      "return_pct": 1230.496528
+      "return_pct": 1230,
+      "source_segment": "account_snapshot"
     }
   ],
-  "public_safety_note": "No account identifiers, token IDs, order IDs, market titles, or individual trade rows are included. The plotted value uses early realized-PnL daily data when available, then account balance snapshots; the latest point is current cash plus open-position mark from the fresh read-only AWS DB snapshot."
+  "public_safety_note": "No account identifiers, token IDs, order IDs, market titles, individual trade rows, exact cash, position counts, or exact trade timestamps are included. The curve uses rounded daily return values. The early segment is realized-PnL history; the later segment is account-snapshot history."
 }

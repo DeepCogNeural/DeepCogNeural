@@ -84,7 +84,7 @@ This is the same research loop I use in science: define the latent variable, ide
   <img src="assets/polymarket-performance.svg" alt="Anonymized Polymarket live-pilot performance snapshot" width="100%">
 </p>
 
-**Public-safe snapshot:** return is measured against the user-provided $50 initial stake; the chart hides account identity and trade-level details. Source account data refreshes every 15 minutes, but this public GitHub image updates only when the generator is rerun and pushed. [Sanitized metrics JSON](assets/polymarket-performance.json)
+**Public-safe snapshot:** return is measured against the user-provided $50 initial stake; the current public snapshot date is 2026-06-07 UTC. Source account data refreshes every 15 minutes, but this public GitHub image updates only when the generator is rerun and pushed. The JSON keeps only rounded date-level returns. [Sanitized metrics JSON](assets/polymarket-performance.json)
 
 ## Research profile
 
