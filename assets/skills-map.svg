@@ -1,0 +1,64 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Linghao Xu core skill set</title>
+  <desc id="desc">A compact skill tree connecting mathematical modeling, neural and vision research, quantitative markets, and research systems.</desc>
+  <rect width="1200" height="360" fill="#FAF9F5"/>
+  <rect x="1" y="1" width="1198" height="358" rx="18" stroke="#E3DACC" stroke-width="2"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="50" y="52" fill="#141413" font-size="28" font-weight="720">Core skill set</text>
+    <text x="50" y="78" fill="#3D3D3A" font-size="15">Mathematical modeling that carries across neural dynamics, perception, and probabilistic markets.</text>
+
+    <rect x="50" y="118" width="242" height="202" rx="14" fill="#141413"/>
+    <text x="76" y="153" fill="#FAF9F5" font-size="19" font-weight="720">First-principles math</text>
+    <text x="76" y="186" fill="#E3DACC" font-size="14">Stochastic processes</text>
+    <text x="76" y="214" fill="#E3DACC" font-size="14">Bayesian inference</text>
+    <text x="76" y="242" fill="#E3DACC" font-size="14">Closed-form moments</text>
+    <text x="76" y="270" fill="#E3DACC" font-size="14">MLE / optimization</text>
+    <text x="76" y="298" fill="#E3DACC" font-size="14">Efficient coding</text>
+
+    <line x1="292" y1="219" x2="344" y2="219" stroke="#D97757" stroke-width="3"/>
+    <circle cx="344" cy="219" r="5" fill="#D97757"/>
+
+    <g>
+      <rect x="370" y="112" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
+      <text x="394" y="143" fill="#141413" font-size="18" font-weight="700">Neural dynamics</text>
+      <text x="394" y="171" fill="#3D3D3A" font-size="13">Dynamic stochastic normalization</text>
+      <text x="394" y="193" fill="#788C5D" font-size="13">V1 variability, Fano factor, latent states</text>
+    </g>
+
+    <g>
+      <rect x="370" y="225" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
+      <text x="394" y="256" fill="#141413" font-size="18" font-weight="700">Vision / VR-XR</text>
+      <text x="394" y="284" fill="#3D3D3A" font-size="13">Bayesian observer models</text>
+      <text x="394" y="306" fill="#788C5D" font-size="13">Optic flow, heading, perception-action bias</text>
+    </g>
+
+    <g>
+      <rect x="668" y="112" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
+      <text x="692" y="143" fill="#141413" font-size="18" font-weight="700">Quant research</text>
+      <text x="692" y="171" fill="#3D3D3A" font-size="13">Probabilistic pricing and EV</text>
+      <text x="692" y="193" fill="#788C5D" font-size="13">Signals, calibration, microstructure</text>
+    </g>
+
+    <g>
+      <rect x="668" y="225" width="248" height="93" rx="12" fill="#FFFFFF" stroke="#E3DACC"/>
+      <text x="692" y="256" fill="#141413" font-size="18" font-weight="700">Research systems</text>
+      <text x="692" y="284" fill="#3D3D3A" font-size="13">Python, SQL, NumPy/SciPy/Pandas</text>
+      <text x="692" y="306" fill="#788C5D" font-size="13">Backtests, pipelines, live evaluation</text>
+    </g>
+
+    <g>
+      <rect x="966" y="112" width="154" height="206" rx="14" fill="#F0EEE6" stroke="#D1CFC5"/>
+      <text x="990" y="146" fill="#141413" font-size="18" font-weight="700">Pattern</text>
+      <text x="990" y="178" fill="#3D3D3A" font-size="13">Noise model</text>
+      <text x="990" y="206" fill="#3D3D3A" font-size="13">Inference</text>
+      <text x="990" y="234" fill="#3D3D3A" font-size="13">Prediction</text>
+      <text x="990" y="262" fill="#3D3D3A" font-size="13">Validation</text>
+      <text x="990" y="290" fill="#D97757" font-size="13" font-weight="700">Research to prod</text>
+    </g>
+
+    <line x1="618" y1="158" x2="668" y2="158" stroke="#D97757" stroke-width="2"/>
+    <line x1="618" y1="272" x2="668" y2="272" stroke="#D97757" stroke-width="2"/>
+    <line x1="916" y1="158" x2="966" y2="158" stroke="#D97757" stroke-width="2"/>
+    <line x1="916" y1="272" x2="966" y2="272" stroke="#D97757" stroke-width="2"/>
+  </g>
+</svg>

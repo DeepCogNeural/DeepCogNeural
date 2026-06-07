@@ -18,6 +18,10 @@ My current research focus is **dynamic stochastic normalization**: how neural va
   <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">Public V1 code</a>
 </p>
 
+<p>
+  <img src="assets/skills-map.svg" alt="Core skill set: math, neural dynamics, vision, quant research, and research systems" width="100%">
+</p>
+
 ## Selected work
 
 ### Dynamic Stochastic Divisive Normalization
@@ -80,7 +84,7 @@ This is the same research loop I use in science: define the latent variable, ide
   <img src="assets/polymarket-performance.svg" alt="Anonymized Polymarket live-pilot performance snapshot" width="100%">
 </p>
 
-**Public-safe snapshot:** current net value is backed by the latest anonymized account snapshot; the initial stake is user-provided because the public-safe DB history starts after the first deposit. The figure hides account identity, token IDs, order IDs, market names, and individual trade rows. [Sanitized metrics JSON](assets/polymarket-performance.json)
+**Public-safe snapshot:** return is measured against the user-provided $50 initial stake; the chart hides account identity and trade-level details. Source account data refreshes every 15 minutes, but this public GitHub image updates only when the generator is rerun and pushed. [Sanitized metrics JSON](assets/polymarket-performance.json)
 
 ## Research profile
 

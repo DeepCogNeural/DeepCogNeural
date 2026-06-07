@@ -1,79 +1,41 @@
-<svg width="1200" height="620" viewBox="0 0 1200 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Anonymized Polymarket weather-market live pilot performance snapshot</title>
-  <desc id="desc">Public-safe performance snapshot showing current net value, multiple, return, and data caveat without account identifiers.</desc>
-  <rect width="1200" height="620" rx="0" fill="#f8fafc"/>
-  <rect x="1" y="1" width="1198" height="618" rx="18" stroke="#cbd5e1" stroke-width="2"/>
-  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
-    <text x="60" y="70" fill="#0f172a" font-size="34" font-weight="800">Polymarket weather markets: small-capital live pilot</text>
-    <text x="60" y="108" fill="#475569" font-size="17">Prediction-market contracts treated as probabilistic pricing and execution problems.</text>
-    <g>
-      <rect x="60" y="140" width="345" height="82" rx="12" fill="#ecfeff" stroke="#67e8f9"/>
-      <text x="82" y="172" fill="#0f172a" font-size="18" font-weight="720">Anonymized account snapshot</text>
-      <text x="82" y="198" fill="#475569" font-size="14">No account identifiers or trade rows shown.</text>
-    </g>
-    <g>
-      <rect x="430" y="140" width="300" height="82" rx="12" fill="#fff7ed" stroke="#fdba74"/>
-      <text x="452" y="172" fill="#0f172a" font-size="18" font-weight="720">Research-to-market loop</text>
-      <text x="452" y="198" fill="#475569" font-size="14">EV research, repricing, and execution attribution.</text>
-    </g>
-    <g>
-      <rect x="755" y="140" width="385" height="82" rx="12" fill="#f0fdf4" stroke="#86efac"/>
-      <text x="777" y="172" fill="#0f172a" font-size="18" font-weight="720">Capital efficiency</text>
-      <text x="777" y="198" fill="#475569" font-size="14">$50.00 initial stake to $565.18 current net value.</text>
-    </g>
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Polymarket live pilot return curve</title>
+  <desc id="desc">An anonymized time series chart with x axis as date and y axis as percentage return versus initial stake.</desc>
+  <rect width="1200" height="520" fill="#FAF9F5"/>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif">
+    <text x="52" y="45" fill="#141413" font-size="28" font-weight="720">Polymarket return curve</text>
+    <text x="1142" y="45" text-anchor="end" fill="#3D3D3A" font-size="15">Latest: $665.25</text>
 
-    <text x="60" y="252" fill="#0f172a" font-size="22" font-weight="760">Capital-growth anchors</text>
-    <line x1="76" y1="505" x2="806" y2="505" stroke="#cbd5e1" stroke-width="1"/>
-    <line x1="76" y1="275" x2="76" y2="505" stroke="#cbd5e1" stroke-width="1"/>
-    <polygon points="76,505 76.0,489.2 296.0,393.3 576.0,306.7 806.0,326.7 806,505" fill="#ccfbf1" opacity="0.75"/>
-    <polyline points="76.0,489.2 296.0,393.3 576.0,306.7 806.0,326.7" fill="none" stroke="#0f766e" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-    
-    <circle cx="76.0" cy="489.2" r="6" fill="#0f766e"/>
-    <text x="76.0" y="477.2" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$50.00</text>
-    <text x="76.0" y="495.2" text-anchor="middle" fill="#475569" font-size="11">Initial stake</text>
-    <text x="76.0" y="510.2" text-anchor="middle" fill="#64748b" font-size="10">user-provided</text>
-    <circle cx="296.0" cy="393.3" r="6" fill="#0f766e"/>
-    <text x="296.0" y="379.3" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$354.00</text>
-    <text x="296.0" y="397.3" text-anchor="middle" fill="#475569" font-size="11">DB history begins</text>
-    <text x="296.0" y="412.3" text-anchor="middle" fill="#64748b" font-size="10">DB cash</text>
-    <circle cx="576.0" cy="306.7" r="6" fill="#0f766e"/>
-    <text x="576.0" y="292.7" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$628.61</text>
-    <text x="576.0" y="310.7" text-anchor="middle" fill="#475569" font-size="11">Observed cash high</text>
-    <text x="576.0" y="325.7" text-anchor="middle" fill="#64748b" font-size="10">DB cash</text>
-    <circle cx="806.0" cy="326.7" r="6" fill="#0f766e"/>
-    <text x="806.0" y="312.7" text-anchor="middle" fill="#111827" font-size="14" font-weight="720">$565.18</text>
-    <text x="806.0" y="330.7" text-anchor="middle" fill="#475569" font-size="11">Latest net value</text>
-    <text x="806.0" y="345.7" text-anchor="middle" fill="#64748b" font-size="10">DB cash + mark</text>
+    <text x="618.00" y="498" text-anchor="middle" fill="#3D3D3A" font-size="14">Time</text>
+    <text x="26" y="265.00" text-anchor="middle" fill="#3D3D3A" font-size="14" transform="rotate(-90 26 265.00)">Return (%)</text>
 
-    
-    <g>
-      <rect x="850" y="275" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
-      <text x="866" y="303" fill="#475569" font-size="14" font-weight="650">Current net</text>
-      <text x="866" y="332" fill="#111827" font-size="28" font-weight="780">$565.18</text>
-      <text x="866" y="351" fill="#64748b" font-size="11">cash + open-position mark</text>
-    </g>
-    <g>
-      <rect x="1000" y="275" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
-      <text x="1016" y="303" fill="#475569" font-size="14" font-weight="650">Multiple</text>
-      <text x="1016" y="332" fill="#111827" font-size="28" font-weight="780">11.3x</text>
-      <text x="1016" y="351" fill="#64748b" font-size="11">vs. initial stake</text>
-    </g>
-    <g>
-      <rect x="850" y="393" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
-      <text x="866" y="421" fill="#475569" font-size="14" font-weight="650">Return</text>
-      <text x="866" y="450" fill="#111827" font-size="28" font-weight="780">+1030%</text>
-      <text x="866" y="469" fill="#64748b" font-size="11">gross, mark-to-market</text>
-    </g>
-    <g>
-      <rect x="1000" y="393" width="130" height="92" rx="10" fill="#ffffff" stroke="#d1d5db"/>
-      <text x="1016" y="421" fill="#475569" font-size="14" font-weight="650">Trades in DB</text>
-      <text x="1016" y="450" fill="#111827" font-size="28" font-weight="780">614</text>
-      <text x="1016" y="469" fill="#64748b" font-size="11">anonymized count</text>
-    </g>
 
-    <g>
-      <rect x="60" y="542" width="1080" height="42" rx="10" fill="#ffffff" stroke="#e2e8f0"/>
-      <text x="82" y="568" fill="#475569" font-size="13">Snapshot: 2026-06-06 19:50 UTC. Current net = USDC cash + open positions marked at snapshot prices. $50 initial stake is user-provided; DB balance history begins after initial growth.</text>
-    </g>
+    <line x1="92" y1="425.82" x2="1144" y2="425.82" stroke="#E3DACC" stroke-width="1"/>
+    <text x="78" y="430.82" text-anchor="end" fill="#87867F" font-size="13">0%</text>
+    <line x1="92" y1="354.29" x2="1144" y2="354.29" stroke="#E3DACC" stroke-width="1"/>
+    <text x="78" y="359.29" text-anchor="end" fill="#87867F" font-size="13">300%</text>
+    <line x1="92" y1="282.75" x2="1144" y2="282.75" stroke="#E3DACC" stroke-width="1"/>
+    <text x="78" y="287.75" text-anchor="end" fill="#87867F" font-size="13">600%</text>
+    <line x1="92" y1="211.22" x2="1144" y2="211.22" stroke="#E3DACC" stroke-width="1"/>
+    <text x="78" y="216.22" text-anchor="end" fill="#87867F" font-size="13">900%</text>
+    <line x1="92" y1="139.69" x2="1144" y2="139.69" stroke="#E3DACC" stroke-width="1"/>
+    <text x="78" y="144.69" text-anchor="end" fill="#87867F" font-size="13">1200%</text>
+    <line x1="92" y1="92.00" x2="1144" y2="92.00" stroke="#E3DACC" stroke-width="1"/>
+    <text x="78" y="97.00" text-anchor="end" fill="#87867F" font-size="13">1400%</text>
+    <line x1="92" y1="438" x2="1144" y2="438" stroke="#141413" stroke-width="1.2"/>
+    <line x1="92" y1="92" x2="92" y2="438" stroke="#141413" stroke-width="1.2"/>
+
+    <line x1="92.00" y1="438" x2="92.00" y2="445" stroke="#87867F"/>
+    <text x="92.00" y="468" text-anchor="middle" fill="#3D3D3A" font-size="13">Mar 19</text>
+    <line x1="618.00" y1="438" x2="618.00" y2="445" stroke="#87867F"/>
+    <text x="618.00" y="468" text-anchor="middle" fill="#3D3D3A" font-size="13">Apr 28</text>
+    <line x1="1144.00" y1="438" x2="1144.00" y2="445" stroke="#87867F"/>
+    <text x="1144.00" y="468" text-anchor="middle" fill="#3D3D3A" font-size="13">Jun 07</text>
+
+    <path d="M 92.00 425.82 C 94.19 425.99, 100.77 426.81, 105.15 426.86 C 109.53 426.92, 113.92 426.24, 118.30 426.16 C 122.68 426.09, 127.07 426.24, 131.45 426.42 C 135.83 426.60, 140.22 426.82, 144.60 427.24 C 148.98 427.66, 153.37 428.57, 157.75 428.94 C 162.13 429.32, 166.52 429.33, 170.90 429.48 C 175.28 429.63, 179.67 429.58, 184.05 429.85 C 188.43 430.12, 192.82 430.68, 197.20 431.10 C 201.58 431.51, 205.97 431.20, 210.35 432.35 C 214.73 433.50, 219.12 437.22, 223.50 438.00 C 227.88 438.78, 232.27 437.32, 236.65 437.02 C 241.03 436.73, 245.42 436.65, 249.80 436.24 C 254.18 435.83, 258.57 435.04, 262.95 434.54 C 267.33 434.04, 271.72 434.97, 276.10 433.24 C 280.48 431.51, 284.87 425.74, 289.25 424.15 C 293.63 422.57, 298.02 424.97, 302.40 423.74 C 306.78 422.51, 311.17 418.31, 315.55 416.76 C 319.93 415.21, 324.32 415.22, 328.70 414.43 C 333.08 413.65, 337.47 412.23, 341.85 412.06 C 346.23 411.90, 350.62 413.69, 355.00 413.42 C 359.38 413.15, 363.77 411.00, 368.15 410.47 C 372.53 409.93, 376.92 410.38, 381.30 410.21 C 385.68 410.04, 390.07 408.89, 394.45 409.43 C 398.83 409.98, 403.22 412.76, 407.60 413.50 C 411.98 414.23, 416.37 413.92, 420.75 413.86 C 425.13 413.79, 429.52 414.42, 433.90 413.10 C 438.28 411.78, 442.67 406.89, 447.05 405.94 C 451.43 405.00, 455.82 408.38, 460.20 407.43 C 464.58 406.47, 433.90 421.33, 473.35 400.23 C 512.80 379.13, 657.45 301.86, 696.90 280.85 C 736.35 259.83, 705.67 273.83, 710.05 274.14 C 714.43 274.46, 718.82 284.68, 723.20 282.72 C 727.58 280.76, 731.97 264.87, 736.35 262.37 C 740.73 259.87, 745.12 266.83, 749.50 267.72 C 753.88 268.61, 758.27 267.72, 762.65 267.72 C 767.03 267.72, 771.42 265.13, 775.80 267.72 C 780.18 270.31, 784.57 277.05, 788.95 283.25 C 793.33 289.44, 797.72 303.50, 802.10 304.90 C 806.48 306.30, 810.87 292.94, 815.25 291.65 C 819.63 290.37, 824.02 299.88, 828.40 297.21 C 832.78 294.55, 837.17 279.07, 841.55 275.66 C 845.93 272.26, 850.32 280.34, 854.70 276.78 C 859.08 273.23, 863.47 258.07, 867.85 254.33 C 872.23 250.59, 876.62 254.33, 881.00 254.33 C 885.38 254.33, 889.77 258.17, 894.15 254.33 C 898.53 250.50, 902.92 227.88, 907.30 231.33 C 911.68 234.78, 916.07 266.95, 920.45 275.02 C 924.83 283.09, 929.22 277.19, 933.60 279.74 C 937.98 282.29, 942.37 285.80, 946.75 290.30 C 951.13 294.80, 955.52 305.23, 959.90 306.73 C 964.28 308.24, 968.67 302.99, 973.05 299.33 C 977.43 295.66, 981.82 280.56, 986.20 284.74 C 990.58 288.92, 994.97 331.24, 999.35 324.40 C 1003.73 317.57, 1008.12 253.20, 1012.50 243.72 C 1016.88 234.25, 1021.27 270.19, 1025.65 267.56 C 1030.03 264.93, 1034.42 239.44, 1038.80 227.93 C 1043.18 216.42, 1047.57 208.54, 1051.95 198.52 C 1056.33 188.51, 1060.72 175.42, 1065.10 167.83 C 1069.48 160.25, 1073.87 156.01, 1078.25 153.02 C 1082.63 150.03, 1087.02 149.62, 1091.40 149.89 C 1095.78 150.15, 1100.17 151.10, 1104.55 154.61 C 1108.93 158.11, 1113.32 163.19, 1117.70 170.93 C 1122.08 178.67, 1126.47 207.47, 1130.85 201.05 C 1135.23 194.63, 1141.81 143.86, 1144.00 132.42 L 1144.00 438.00 L 92.00 438.00 Z" fill="#E3DACC" opacity="0.62"/>
+    <path d="M 92.00 425.82 C 94.19 425.99, 100.77 426.81, 105.15 426.86 C 109.53 426.92, 113.92 426.24, 118.30 426.16 C 122.68 426.09, 127.07 426.24, 131.45 426.42 C 135.83 426.60, 140.22 426.82, 144.60 427.24 C 148.98 427.66, 153.37 428.57, 157.75 428.94 C 162.13 429.32, 166.52 429.33, 170.90 429.48 C 175.28 429.63, 179.67 429.58, 184.05 429.85 C 188.43 430.12, 192.82 430.68, 197.20 431.10 C 201.58 431.51, 205.97 431.20, 210.35 432.35 C 214.73 433.50, 219.12 437.22, 223.50 438.00 C 227.88 438.78, 232.27 437.32, 236.65 437.02 C 241.03 436.73, 245.42 436.65, 249.80 436.24 C 254.18 435.83, 258.57 435.04, 262.95 434.54 C 267.33 434.04, 271.72 434.97, 276.10 433.24 C 280.48 431.51, 284.87 425.74, 289.25 424.15 C 293.63 422.57, 298.02 424.97, 302.40 423.74 C 306.78 422.51, 311.17 418.31, 315.55 416.76 C 319.93 415.21, 324.32 415.22, 328.70 414.43 C 333.08 413.65, 337.47 412.23, 341.85 412.06 C 346.23 411.90, 350.62 413.69, 355.00 413.42 C 359.38 413.15, 363.77 411.00, 368.15 410.47 C 372.53 409.93, 376.92 410.38, 381.30 410.21 C 385.68 410.04, 390.07 408.89, 394.45 409.43 C 398.83 409.98, 403.22 412.76, 407.60 413.50 C 411.98 414.23, 416.37 413.92, 420.75 413.86 C 425.13 413.79, 429.52 414.42, 433.90 413.10 C 438.28 411.78, 442.67 406.89, 447.05 405.94 C 451.43 405.00, 455.82 408.38, 460.20 407.43 C 464.58 406.47, 433.90 421.33, 473.35 400.23 C 512.80 379.13, 657.45 301.86, 696.90 280.85 C 736.35 259.83, 705.67 273.83, 710.05 274.14 C 714.43 274.46, 718.82 284.68, 723.20 282.72 C 727.58 280.76, 731.97 264.87, 736.35 262.37 C 740.73 259.87, 745.12 266.83, 749.50 267.72 C 753.88 268.61, 758.27 267.72, 762.65 267.72 C 767.03 267.72, 771.42 265.13, 775.80 267.72 C 780.18 270.31, 784.57 277.05, 788.95 283.25 C 793.33 289.44, 797.72 303.50, 802.10 304.90 C 806.48 306.30, 810.87 292.94, 815.25 291.65 C 819.63 290.37, 824.02 299.88, 828.40 297.21 C 832.78 294.55, 837.17 279.07, 841.55 275.66 C 845.93 272.26, 850.32 280.34, 854.70 276.78 C 859.08 273.23, 863.47 258.07, 867.85 254.33 C 872.23 250.59, 876.62 254.33, 881.00 254.33 C 885.38 254.33, 889.77 258.17, 894.15 254.33 C 898.53 250.50, 902.92 227.88, 907.30 231.33 C 911.68 234.78, 916.07 266.95, 920.45 275.02 C 924.83 283.09, 929.22 277.19, 933.60 279.74 C 937.98 282.29, 942.37 285.80, 946.75 290.30 C 951.13 294.80, 955.52 305.23, 959.90 306.73 C 964.28 308.24, 968.67 302.99, 973.05 299.33 C 977.43 295.66, 981.82 280.56, 986.20 284.74 C 990.58 288.92, 994.97 331.24, 999.35 324.40 C 1003.73 317.57, 1008.12 253.20, 1012.50 243.72 C 1016.88 234.25, 1021.27 270.19, 1025.65 267.56 C 1030.03 264.93, 1034.42 239.44, 1038.80 227.93 C 1043.18 216.42, 1047.57 208.54, 1051.95 198.52 C 1056.33 188.51, 1060.72 175.42, 1065.10 167.83 C 1069.48 160.25, 1073.87 156.01, 1078.25 153.02 C 1082.63 150.03, 1087.02 149.62, 1091.40 149.89 C 1095.78 150.15, 1100.17 151.10, 1104.55 154.61 C 1108.93 158.11, 1113.32 163.19, 1117.70 170.93 C 1122.08 178.67, 1126.47 207.47, 1130.85 201.05 C 1135.23 194.63, 1141.81 143.86, 1144.00 132.42" fill="none" stroke="#D97757" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="1144.00" cy="132.42" r="7" fill="#141413"/>
+    <text x="1132.00" y="114.42" text-anchor="end" fill="#141413" font-size="18" font-weight="720">1,230% return</text>
+    <text x="1132.00" y="136.42" text-anchor="end" fill="#788C5D" font-size="13">2026-06-07</text>
   </g>
 </svg>
