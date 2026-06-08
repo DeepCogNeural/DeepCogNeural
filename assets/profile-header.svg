@@ -1,38 +1,34 @@
 <svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Analytical modeling for noisy systems</title>
-  <desc id="desc">Stochastic differential equations, Bayesian observer models, natural-image segmentation, probabilistic inference, expected value, and game-theoretic decisions.</desc>
+  <desc id="desc">Stochastic differential equations, Bayesian observer models, natural image segmentation, probabilistic inference, expected value, and game-theoretic decisions.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#111827"/>
-      <stop offset="0.52" stop-color="#1f3a5f"/>
-      <stop offset="1" stop-color="#164e63"/>
+      <stop offset="0" stop-color="#FBF7EF"/>
+      <stop offset="0.65" stop-color="#F8F1E4"/>
+      <stop offset="1" stop-color="#F5EBDC"/>
     </linearGradient>
-    <linearGradient id="signal" x1="640" y1="78" x2="1090" y2="238" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#38bdf8"/>
-      <stop offset="0.5" stop-color="#a7f3d0"/>
-      <stop offset="1" stop-color="#facc15"/>
-    </linearGradient>
-    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="24"/>
+    <filter id="shadow" x="-8%" y="-10%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6B5D4D" flood-opacity="0.13"/>
     </filter>
   </defs>
-
   <rect width="1200" height="340" rx="28" fill="url(#bg)"/>
-  <path d="M0 64 H1200" stroke="#ffffff" stroke-opacity="0.08"/>
-  <path d="M0 128 H1200" stroke="#ffffff" stroke-opacity="0.06"/>
-  <path d="M0 192 H1200" stroke="#ffffff" stroke-opacity="0.06"/>
-  <path d="M0 256 H1200" stroke="#ffffff" stroke-opacity="0.08"/>
-  <path d="M172 0 V340" stroke="#ffffff" stroke-opacity="0.06"/>
-  <path d="M368 0 V340" stroke="#ffffff" stroke-opacity="0.05"/>
-  <path d="M760 0 V340" stroke="#ffffff" stroke-opacity="0.05"/>
-  <path d="M1040 0 V340" stroke="#ffffff" stroke-opacity="0.06"/>
-
-  <g transform="translate(70 76)">
-    <text x="0" y="0" fill="#bae6fd" font-size="18" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">ANALYTICAL MODELING FOR NOISY SYSTEMS</text>
-    <text x="0" y="64" fill="#ffffff" font-size="41" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Stochastic differential equations for noisy decisions</text>
-    <text x="0" y="108" fill="#dbeafe" font-size="23" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Bayesian observer + efficient encoding | natural-image segmentation | EV + game theory</text>
-    <text x="0" y="154" fill="#e5e7eb" font-size="18" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Probabilistic inference, MLE, and expected value across neural, behavioral, and market data.</text>
-    <text x="0" y="198" fill="#fef3c7" font-size="17" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">random dynamics -> Bayesian inference -> segmentation / vision -> EV decisions</text>
+  <path d="M0 68H1200M0 136H1200M0 204H1200M0 272H1200" stroke="#E7DDCE" stroke-opacity="0.58"/>
+  <path d="M180 0V340M360 0V340M540 0V340M720 0V340M900 0V340M1080 0V340" stroke="#E7DDCE" stroke-opacity="0.42"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+    <text x="58" y="70" fill="#171717" font-size="42" font-weight="780">Analytical modeling for noisy systems</text>
+    <text x="58" y="112" fill="#5E574E" font-size="21">SDEs | Bayesian vision | segmentation | expected-value decisions</text>
+    <text x="58" y="158" fill="#4A423A" font-size="18">Closed-form moments, efficient coding, MLE, and validation loops for noisy data.</text>
+    <text x="58" y="204" fill="#6F7F4D" font-size="17" font-weight="720">random dynamics -> Bayesian inference -> vision / segmentation -> EV decisions</text>
+    <g transform="translate(820 64)" filter="url(#shadow)">
+      <rect x="0" y="0" width="306" height="206" rx="22" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+      <path d="M34 78 C56 38 82 104 108 70 C132 38 154 96 180 58" stroke="#0B2447" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+      <path d="M34 124 C58 96 82 150 110 116 C136 84 156 136 184 100" stroke="#D97757" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.8"/>
+      <circle cx="34" cy="78" r="7" fill="#0B2447"/><circle cx="34" cy="124" r="7" fill="#D97757"/>
+      <circle cx="228" cy="92" r="50" fill="#F7EFE2" stroke="#D8D0C1"/>
+      <path d="M190 122 C202 78 244 78 256 122" stroke="#6F7F4D" stroke-width="4" fill="none"/>
+      <path d="M228 50 V142M188 122 H268" stroke="#0B2447" stroke-width="2" opacity="0.55"/>
+      <circle cx="228" cy="93" r="7" fill="#D97757"/>
+      <path d="M68 168 H252" stroke="#0B2447" stroke-width="4" stroke-linecap="round"/>
+    </g>
   </g>
-
 </svg>

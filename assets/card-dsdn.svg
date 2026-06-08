@@ -1,17 +1,27 @@
-<svg width="1200" height="230" viewBox="0 0 1200 230" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<svg width="1200" height="250" viewBox="0 0 1200 250" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Dynamic Stochastic Divisive Normalization card</title>
   <desc id="desc">Analytical neural variability model where random noisy input, the numerator Nt, is divided by noisy normalization, the denominator Dt.</desc>
-  <rect width="1200" height="230" rx="18" fill="#f8fafc"/>
-  <rect x="1" y="1" width="1198" height="228" rx="17" stroke="#cbd5e1" stroke-width="2"/>
-  <rect x="30" y="35" width="160" height="160" rx="24" fill="#0f172a"/>
-  <text x="72" y="86" fill="#e0f2fe" font-size="26" font-weight="800" font-family="Inter, ui-sans-serif, system-ui">N<tspan baseline-shift="sub" font-size="15">t</tspan></text>
-  <path d="M64 105 H156" stroke="#94a3b8" stroke-width="7" stroke-linecap="round"/>
-  <text x="72" y="152" fill="#fef3c7" font-size="26" font-weight="800" font-family="Inter, ui-sans-serif, system-ui">D<tspan baseline-shift="sub" font-size="15">t</tspan></text>
-  <path d="M44 180 C70 142 92 194 120 158 C146 124 166 168 180 142" stroke="#38bdf8" stroke-width="7" stroke-linecap="round"/>
-  <text x="230" y="60" fill="#0f172a" font-size="29" font-weight="760" font-family="Inter, ui-sans-serif, system-ui">Stochastic Normalization Dynamics</text>
-  <text x="230" y="96" fill="#334155" font-size="17" font-family="Inter, ui-sans-serif, system-ui">Random noisy input (numerator N<tspan baseline-shift="sub" font-size="11">t</tspan>) divided by</text>
-  <text x="230" y="124" fill="#334155" font-size="17" font-family="Inter, ui-sans-serif, system-ui">noisy normalization (denominator D<tspan baseline-shift="sub" font-size="11">t</tspan>).</text>
-  <text x="230" y="154" fill="#475569" font-size="16" font-family="Inter, ui-sans-serif, system-ui">Closed-form mean, variance, Fano factor, and peak timing.</text>
-  <text x="230" y="184" fill="#0f766e" font-size="15" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">stochastic processes | ratio models | MLE</text>
-  <text x="230" y="208" fill="#0f766e" font-size="15" font-weight="700" font-family="Inter, ui-sans-serif, system-ui">latent-state estimation | neural time series</text>
+  <defs>
+    <filter id="shadow" x="-8%" y="-10%" width="116%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#6B5D4D" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="250" rx="24" fill="#FBF7EF"/>
+  <path d="M0 62H1200M0 125H1200M0 188H1200" stroke="#E7DDCE" stroke-opacity="0.5"/>
+  <path d="M200 0V250M400 0V250M600 0V250M800 0V250M1000 0V250" stroke="#E7DDCE" stroke-opacity="0.34"/>
+  <rect x="22" y="22" width="1156" height="206" rx="22" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5" filter="url(#shadow)"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+
+    <g transform="translate(52 44)">
+      <circle cx="80" cy="80" r="72" fill="#F7EFE2" stroke="#D8D0C1" stroke-width="1.4"/>
+      <text x="42" y="64" fill="#0B2447" font-size="34" font-weight="800">N<tspan baseline-shift="sub" font-size="18">t</tspan></text>
+      <path d="M38 82 H124" stroke="#9CA3AF" stroke-width="7" stroke-linecap="round"/>
+      <text x="42" y="125" fill="#D97757" font-size="34" font-weight="800">D<tspan baseline-shift="sub" font-size="18">t</tspan></text>
+      <path d="M24 144 C48 112 70 158 96 126 C122 96 138 136 154 110" stroke="#38BDF8" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <text x="240" y="68" fill="#171717" font-size="31" font-weight="780">Stochastic Normalization Dynamics</text>
+    <text x="240" y="106" fill="#5E574E" font-size="18">Random noisy input (numerator N<tspan baseline-shift="sub" font-size="12">t</tspan>) divided by noisy normalization (denominator D<tspan baseline-shift="sub" font-size="12">t</tspan>).</text>
+    <text x="240" y="142" fill="#4A423A" font-size="17">Closed-form mean, variance, Fano factor, and peak timing for neural response dynamics.</text>
+    <text x="240" y="184" fill="#6F7F4D" font-size="16" font-weight="720">stochastic processes | ratio models | latent-state estimation | MLE | neural time series</text>
+</g>
 </svg>
