@@ -8,6 +8,8 @@ I am a Ph.D. researcher in computational neuroscience in Dr. Ruben Coen-Cagli's 
 
 My background is mathematics-heavy: stochastic-process modeling, Bayesian inference, efficient coding, closed-form moment derivations, maximum-likelihood estimation, and empirical validation on neural, behavioral, and market data.
 
+The common thread is **general quantitative modeling on hard data**: breaking ambiguous, noisy questions into estimable pieces, choosing a probabilistic model, quantifying uncertainty, and validating whether the model actually explains the data.
+
 My current research focus is **dynamic stochastic normalization**: how neural variability evolves when both the input drive and the normalization signal are random variables, and how to analytically infer not only variability but also its dynamics.
 
 <p>
@@ -94,6 +96,7 @@ This is the same research loop I use in science: define the latent variable, ide
 
 | Area | What I work on |
 | --- | --- |
+| General modeling on hard data | Break ambiguous signal problems into latent variables, uncertainty estimates, validation protocols, and decision rules |
 | Mathematical modeling | Stochastic processes, ratio distributions, closed-form moment derivations, optimization, MLE |
 | Neural dynamics | Divisive normalization, latent-state estimation, Fano-factor dynamics, non-stationary neural time series |
 | Vision and VR/XR perception | Bayesian observer models, optic flow, heading perception, perception-action bias, serial dependence |
@@ -109,4 +112,4 @@ I am looking for internships on two tracks.
 
 **Tech research / applied science:** roles in vision, VR/XR perception, neural dynamics, and uncertainty-aware decision systems where mathematical modeling and end-to-end research systems both matter.
 
-Across both tracks, my strongest fit is work that needs rigorous math, dynamic stochastic modeling, and a path from research insight to production-quality evaluation.
+Across both tracks, my strongest fit is work that rewards general mathematical modeling ability: turning messy data into latent variables, uncertainty estimates, expected values, and evaluation loops that hold up under validation.
