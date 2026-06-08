@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Analytical modeling for noisy systems" width="100%">
+  <img src="assets/profile-header-classic.svg" alt="Analytical modeling for noisy systems" width="100%">
 </p>
 
 # Linghao Xu
@@ -31,7 +31,7 @@ My current research focus is **dynamic stochastic normalization**: how neural va
 ### Dynamic Stochastic Divisive Normalization
 
 <p>
-  <img src="assets/card-dsdn.svg" alt="Dynamic Stochastic Divisive Normalization" width="100%">
+  <img src="assets/card-dsdn-classic.svg" alt="Dynamic Stochastic Divisive Normalization" width="100%">
 </p>
 
 **Summary:** I build analytical models for neural systems where both the signal and the normalization pool are noisy and time-varying.
@@ -52,7 +52,7 @@ My public V1 repository is a cleaned research-code view of a collaborative proje
 
 <p>
   <a href="https://github.com/DeepCogNeural/bayesian-heading-observer">
-    <img src="assets/card-vision.svg" alt="Bayesian observer models for optic-flow perception" width="100%">
+    <img src="assets/card-vision-classic.svg" alt="Bayesian observer models for optic-flow perception" width="100%">
   </a>
 </p>
 
@@ -73,7 +73,7 @@ This line of work is directly relevant to VR/XR navigation and human-in-the-loop
 ### Research-to-market probabilistic pricing
 
 <p>
-  <img src="assets/card-polymarket.svg" alt="Research-to-market probabilistic pricing" width="100%">
+  <img src="assets/card-polymarket-classic.svg" alt="Research-to-market probabilistic pricing" width="100%">
 </p>
 
 **Summary:** I treat prediction-market contracts as probabilistic pricing problems, not simple forecasting bets.
@@ -85,7 +85,7 @@ Built a research-driven trading framework for Polymarket weather markets, treati
 This is the same research loop I use in science: define the latent variable, identify the source of noise, build a measurable model, backtest against final labels, and use failures as data for the next iteration. The live pilot is intentionally small-capital, which makes capital efficiency and execution attribution more informative than raw dollar P&L.
 
 <p>
-  <img src="assets/polymarket-performance.svg" alt="Anonymized Polymarket live-pilot performance snapshot" width="100%">
+  <img src="assets/polymarket-performance-classic.svg" alt="Anonymized Polymarket live-pilot performance snapshot" width="100%">
 </p>
 
 **Public-safe snapshot:** return is measured against the user-provided $50 initial stake; the current public snapshot date is 2026-06-07 UTC. Source account data refreshes every 15 minutes, but this public GitHub image updates only when the generator is rerun and pushed. The JSON keeps only rounded date-level returns. [Sanitized metrics JSON](assets/polymarket-performance.json)

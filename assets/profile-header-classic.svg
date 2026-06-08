@@ -1,0 +1,38 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Analytical modeling for noisy systems</title>
+  <desc id="desc">Stochastic differential equations, Bayesian observer models, natural-image segmentation, probabilistic inference, expected value, and game-theoretic decisions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="0.52" stop-color="#1f3a5f"/>
+      <stop offset="1" stop-color="#164e63"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="640" y1="78" x2="1090" y2="238" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#a7f3d0"/>
+      <stop offset="1" stop-color="#facc15"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="24"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="340" rx="28" fill="url(#bg)"/>
+  <path d="M0 64 H1200" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M0 128 H1200" stroke="#ffffff" stroke-opacity="0.06"/>
+  <path d="M0 192 H1200" stroke="#ffffff" stroke-opacity="0.06"/>
+  <path d="M0 256 H1200" stroke="#ffffff" stroke-opacity="0.08"/>
+  <path d="M172 0 V340" stroke="#ffffff" stroke-opacity="0.06"/>
+  <path d="M368 0 V340" stroke="#ffffff" stroke-opacity="0.05"/>
+  <path d="M760 0 V340" stroke="#ffffff" stroke-opacity="0.05"/>
+  <path d="M1040 0 V340" stroke="#ffffff" stroke-opacity="0.06"/>
+
+  <g transform="translate(70 76)">
+    <text x="0" y="0" fill="#bae6fd" font-size="18" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">ANALYTICAL MODELING FOR NOISY SYSTEMS</text>
+    <text x="0" y="64" fill="#ffffff" font-size="41" font-weight="760" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Stochastic differential equations for noisy decisions</text>
+    <text x="0" y="108" fill="#dbeafe" font-size="23" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Bayesian observer + efficient encoding | natural-image segmentation | EV + game theory</text>
+    <text x="0" y="154" fill="#e5e7eb" font-size="18" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">Probabilistic inference, MLE, and expected value across neural, behavioral, and market data.</text>
+    <text x="0" y="198" fill="#fef3c7" font-size="17" font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">random dynamics -> Bayesian inference -> segmentation / vision -> EV decisions</text>
+  </g>
+
+</svg>
