@@ -1,72 +1,123 @@
-<svg width="1500" height="450" viewBox="0 0 1500 450" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Linghao Xu core skill set</title>
-  <desc id="desc">Core skills in mathematical modeling, neural dynamics, vision and VR/XR perception, quantitative research, and research systems.</desc>
-  <rect width="1500" height="450" rx="22" fill="#FAF7F0"/>
-  <rect x="1.5" y="1.5" width="1497" height="447" rx="20.5" stroke="#DDD5C8" stroke-width="3"/>
+<svg width="1500" height="620" viewBox="0 0 1500 620" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Linghao Xu core research stack</title>
+  <desc id="desc">A research stack connecting first-principles mathematics, stochastic neural dynamics, Bayesian vision and VR/XR perception, probabilistic pricing, and research systems.</desc>
   <defs>
-    <filter id="softShadow" x="-8%" y="-12%" width="116%" height="130%">
-      <feDropShadow dx="0" dy="1.5" stdDeviation="1.6" flood-color="#3A2D1F" flood-opacity="0.08"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1500" y2="620" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#101827"/>
+      <stop offset="0.55" stop-color="#1E3A5F"/>
+      <stop offset="1" stop-color="#175368"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.52" stop-color="#A7F3D0"/>
+      <stop offset="1" stop-color="#F6C453"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="135%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#06111F" flood-opacity="0.28"/>
     </filter>
   </defs>
+
+  <rect width="1500" height="620" rx="28" fill="url(#bg)"/>
+  <path d="M0 92 H1500M0 184 H1500M0 276 H1500M0 368 H1500M0 460 H1500M0 552 H1500" stroke="#FFFFFF" stroke-opacity="0.06"/>
+  <path d="M180 0 V620M360 0 V620M540 0 V620M720 0 V620M900 0 V620M1080 0 V620M1260 0 V620" stroke="#FFFFFF" stroke-opacity="0.055"/>
+
   <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
-    <text x="48" y="58" fill="#161616" font-size="31" font-weight="760">Core skill set</text>
-    <text x="48" y="88" fill="#5F574D" font-size="17">Mathematical modeling across neural dynamics, perception, and probabilistic markets.</text>
+    <text x="56" y="66" fill="#F8FAFC" font-size="38" font-weight="780">Core research stack</text>
+    <text x="56" y="102" fill="#CFE8F3" font-size="19">Math-first modeling for neural variability, human perception, and probabilistic markets.</text>
 
-    <g filter="url(#softShadow)">
-      <rect x="48" y="132" width="304" height="250" rx="18" fill="#171717"/>
-      <text x="78" y="178" fill="#FAF7F0" font-size="21" font-weight="740">First-principles math</text>
-      <text x="78" y="218" fill="#E8DFD2" font-size="15.5">Stochastic processes</text>
-      <text x="78" y="251" fill="#E8DFD2" font-size="15.5">Bayesian inference</text>
-      <text x="78" y="284" fill="#E8DFD2" font-size="15.5">Closed-form moments</text>
-      <text x="78" y="317" fill="#E8DFD2" font-size="15.5">MLE / optimization</text>
-      <text x="78" y="350" fill="#E8DFD2" font-size="15.5">Efficient coding</text>
+    <g filter="url(#shadow)">
+      <rect x="56" y="132" width="384" height="420" rx="24" fill="#F9F6EE" stroke="#D8D0C1" stroke-width="1.5"/>
+      <text x="88" y="178" fill="#111827" font-size="26" font-weight="780">Mathematical engine</text>
+      <text x="88" y="210" fill="#5F574D" font-size="16">Turn noisy systems into tractable models.</text>
+
+      <g transform="translate(88 242)">
+        <rect x="0" y="0" width="150" height="128" rx="18" fill="#111827"/>
+        <text x="28" y="39" fill="#E0F2FE" font-size="31" font-weight="800">N<tspan baseline-shift="sub" font-size="17">t</tspan></text>
+        <path d="M26 58 H124" stroke="#B7C4D6" stroke-width="7" stroke-linecap="round"/>
+        <text x="28" y="102" fill="#FEF3C7" font-size="31" font-weight="800">D<tspan baseline-shift="sub" font-size="17">t</tspan></text>
+        <path d="M16 116 C42 82 66 126 94 92 C118 62 136 100 148 78" stroke="#38BDF8" stroke-width="7" stroke-linecap="round"/>
+      </g>
+
+      <g fill="#111827" font-size="17" font-weight="680">
+        <text x="88" y="404">SDEs + stochastic processes</text>
+        <text x="88" y="436">Bayesian inference + MLE</text>
+        <text x="88" y="468">Closed-form moments</text>
+        <text x="88" y="500">Time-series variability</text>
+      </g>
     </g>
 
-    <path d="M352 256 H416" stroke="#D97757" stroke-width="3" stroke-linecap="round"/>
-    <circle cx="416" cy="256" r="6" fill="#D97757"/>
-
-    <g filter="url(#softShadow)">
-      <rect x="440" y="126" width="318" height="118" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
-      <text x="470" y="171" fill="#171717" font-size="21" font-weight="720">Neural dynamics</text>
-      <text x="470" y="207" fill="#4B423A" font-size="15">Dynamic stochastic normalization</text>
-      <text x="470" y="230" fill="#6E7F4E" font-size="14">V1 variability, Fano dynamics</text>
+    <g filter="url(#shadow)">
+      <rect x="474" y="132" width="452" height="170" rx="20" fill="#F9F6EE" stroke="#D8D0C1" stroke-width="1.5"/>
+      <g transform="translate(502 168)">
+        <rect x="0" y="0" width="82" height="62" rx="10" fill="#E8DFD2" stroke="#CFC6B8"/>
+        <path d="M8 48 L28 28 L42 42 L58 18 L74 48" stroke="#6E7F4E" stroke-width="3" fill="none"/>
+        <path d="M8 13 H74M8 29 H74M26 0 V62M54 0 V62" stroke="#111827" stroke-opacity="0.16"/>
+        <path d="M4 88 C20 56 42 98 62 68 C78 42 92 70 104 52" stroke="#D97757" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M4 108 C24 82 42 116 66 92 C84 76 96 94 108 82" stroke="#38BDF8" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.75"/>
+      </g>
+      <text x="640" y="178" fill="#111827" font-size="24" font-weight="760">Neural dynamics</text>
+      <text x="640" y="214" fill="#4B423A" font-size="17">Stochastic normalization</text>
+      <text x="640" y="243" fill="#4B423A" font-size="17">Natural images -> V1 variability</text>
+      <text x="640" y="272" fill="#6E7F4E" font-size="16" font-weight="700">Fano dynamics, latent state, MLE</text>
     </g>
 
-    <g filter="url(#softShadow)">
-      <rect x="440" y="278" width="318" height="118" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
-      <text x="470" y="323" fill="#171717" font-size="21" font-weight="720">Vision / VR-XR</text>
-      <text x="470" y="359" fill="#4B423A" font-size="15">Bayesian observer models</text>
-      <text x="470" y="382" fill="#6E7F4E" font-size="14">Optic flow, heading bias</text>
+    <g filter="url(#shadow)">
+      <rect x="968" y="132" width="476" height="170" rx="20" fill="#F9F6EE" stroke="#D8D0C1" stroke-width="1.5"/>
+      <g transform="translate(1000 170)">
+        <circle cx="42" cy="50" r="38" fill="#E8F1EA" stroke="#9DBE9B"/>
+        <circle cx="42" cy="50" r="7" fill="#0F172A"/>
+        <path d="M18 27 L33 41M14 50 H31M18 73 L33 59M66 27 L51 41M70 50 H53M66 73 L51 59" stroke="#6E7F4E" stroke-width="3" stroke-linecap="round"/>
+        <path d="M94 76 C108 36 134 36 148 76" stroke="#D97757" stroke-width="3.6" fill="none"/>
+        <path d="M121 25 V88M94 76 H150" stroke="#111827" stroke-width="2" opacity="0.65"/>
+        <path d="M154 56 H177" stroke="#0F766E" stroke-width="3" stroke-linecap="round"/>
+        <path d="M177 56 L168 48M177 56 L168 64" stroke="#0F766E" stroke-width="3" stroke-linecap="round"/>
+      </g>
+      <text x="1200" y="178" fill="#111827" font-size="23" font-weight="760">Bayesian vision</text>
+      <text x="1200" y="214" fill="#4B423A" font-size="17">Efficient observer models</text>
+      <text x="1200" y="243" fill="#4B423A" font-size="17">VR/XR optic-flow heading</text>
+      <text x="1200" y="272" fill="#6E7F4E" font-size="16" font-weight="700">Perception-action bias</text>
     </g>
 
-    <path d="M758 185 H808" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M758 337 H808" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
-
-    <g filter="url(#softShadow)">
-      <rect x="830" y="126" width="344" height="118" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
-      <text x="860" y="171" fill="#171717" font-size="21" font-weight="720">Quant research</text>
-      <text x="860" y="207" fill="#4B423A" font-size="15">Probabilistic pricing and EV</text>
-      <text x="860" y="230" fill="#6E7F4E" font-size="14">Signals, calibration, microstructure</text>
+    <g filter="url(#shadow)">
+      <rect x="474" y="326" width="452" height="170" rx="20" fill="#F9F6EE" stroke="#D8D0C1" stroke-width="1.5"/>
+      <g transform="translate(506 365)">
+        <path d="M0 88 C18 82 26 42 48 42 C72 42 74 110 100 110 C124 110 132 34 154 34" stroke="#111827" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <circle cx="86" cy="84" r="8" fill="#D97757"/>
+        <path d="M86 28 V118" stroke="#D97757" stroke-width="2" stroke-dasharray="6 6"/>
+      </g>
+      <text x="650" y="372" fill="#111827" font-size="24" font-weight="760">Quant research</text>
+      <text x="650" y="408" fill="#4B423A" font-size="17">Probabilistic pricing + EV</text>
+      <text x="650" y="437" fill="#4B423A" font-size="17">Order-book microstructure</text>
+      <text x="650" y="466" fill="#6E7F4E" font-size="16" font-weight="700">Settlement-labeled backtests</text>
     </g>
 
-    <g filter="url(#softShadow)">
-      <rect x="830" y="278" width="344" height="118" rx="16" fill="#FFFDFC" stroke="#DDD5C8" stroke-width="1.5"/>
-      <text x="860" y="323" fill="#171717" font-size="21" font-weight="720">Research systems</text>
-      <text x="860" y="359" fill="#4B423A" font-size="15">Python, SQL, NumPy/SciPy</text>
-      <text x="860" y="382" fill="#6E7F4E" font-size="14">Backtests, pipelines, evaluation</text>
+    <g filter="url(#shadow)">
+      <rect x="968" y="326" width="476" height="170" rx="20" fill="#F9F6EE" stroke="#D8D0C1" stroke-width="1.5"/>
+      <g transform="translate(1002 370)">
+        <path d="M74 16 C74 27 46 34 16 28 C-14 22 -14 4 16 0 C46 -4 74 5 74 16Z" fill="#E8DFD2" stroke="#111827" stroke-width="3"/>
+        <path d="M0 16 V84 C0 96 74 96 74 84 V16" stroke="#111827" stroke-width="3" fill="none"/>
+        <path d="M0 50 C0 62 74 62 74 50" stroke="#111827" stroke-width="2" fill="none"/>
+        <path d="M98 50 H142M142 50 L131 41M142 50 L131 59" stroke="#D97757" stroke-width="4" stroke-linecap="round"/>
+        <path d="M4 116 C28 98 56 98 80 116 C104 134 132 134 156 116" stroke="#38BDF8" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+      <text x="1188" y="372" fill="#111827" font-size="24" font-weight="760">Research systems</text>
+      <text x="1188" y="408" fill="#4B423A" font-size="17">Python / SQL pipelines</text>
+      <text x="1188" y="437" fill="#4B423A" font-size="17">NumPy, SciPy, Pandas</text>
+      <text x="1188" y="466" fill="#6E7F4E" font-size="16" font-weight="700">Offline eval -> live attribution</text>
     </g>
 
-    <path d="M1174 185 H1218" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
-    <path d="M1174 337 H1218" stroke="#D97757" stroke-width="2.4" stroke-linecap="round"/>
-
-    <g filter="url(#softShadow)">
-      <rect x="1238" y="126" width="232" height="270" rx="18" fill="#F0ECE2" stroke="#D0C8BA" stroke-width="1.5"/>
-      <text x="1268" y="177" fill="#171717" font-size="21" font-weight="720">Pattern</text>
-      <text x="1268" y="219" fill="#4B423A" font-size="15">Noise model</text>
-      <text x="1268" y="255" fill="#4B423A" font-size="15">Inference</text>
-      <text x="1268" y="291" fill="#4B423A" font-size="15">Prediction</text>
-      <text x="1268" y="327" fill="#4B423A" font-size="15">Validation</text>
-      <text x="1268" y="363" fill="#D97757" font-size="15" font-weight="740">Research to prod</text>
+    <g filter="url(#shadow)">
+      <rect x="474" y="524" width="970" height="64" rx="18" fill="#F9F6EE" stroke="#D8D0C1" stroke-width="1.5"/>
+      <text x="504" y="563" fill="#111827" font-size="21" font-weight="760">Research loop</text>
+      <text x="680" y="563" fill="#4B423A" font-size="17">model noise</text>
+      <path d="M782 557 H826" stroke="#D97757" stroke-width="2.8" stroke-linecap="round"/>
+      <text x="850" y="563" fill="#4B423A" font-size="17">infer latent state</text>
+      <path d="M1000 557 H1044" stroke="#D97757" stroke-width="2.8" stroke-linecap="round"/>
+      <text x="1068" y="563" fill="#4B423A" font-size="17">predict</text>
+      <path d="M1130 557 H1174" stroke="#D97757" stroke-width="2.8" stroke-linecap="round"/>
+      <text x="1198" y="563" fill="#4B423A" font-size="17">validate</text>
+      <path d="M1268 557 H1312" stroke="#D97757" stroke-width="2.8" stroke-linecap="round"/>
+      <text x="1336" y="563" fill="#0F766E" font-size="17" font-weight="740">iterate</text>
     </g>
   </g>
 </svg>

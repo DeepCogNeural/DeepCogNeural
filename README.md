@@ -19,7 +19,7 @@ My current research focus is **dynamic stochastic normalization**: how neural va
 </p>
 
 <p>
-  <img src="assets/skills-map.svg" alt="Core skill set: math, neural dynamics, vision, quant research, and research systems" width="100%">
+  <img src="assets/skills-map.svg" alt="Core research stack: mathematical modeling, neural dynamics, Bayesian vision, quant research, research systems, and validation loop" width="100%">
 </p>
 
 **Keywords:** stochastic differential equations, stochastic processes, stochastic normalization, Bayesian inference, neural variability, V1 dynamics, natural image segmentation, Bayesian observer models, efficient coding, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, MLE, time series.
