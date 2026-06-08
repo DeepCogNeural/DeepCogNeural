@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" alt="Analytical stochastic modeling for uncertainty" width="100%">
+  <img src="assets/profile-header.svg" alt="Analytical modeling for noisy systems" width="100%">
 </p>
 
 # Linghao Xu
@@ -19,7 +19,7 @@ My current research focus is **dynamic stochastic normalization**: how neural va
 </p>
 
 <p>
-  <img src="assets/skills-map.svg" alt="Core research stack: mathematical modeling, neural dynamics, Bayesian vision, quant research, research systems, and validation loop" width="100%">
+  <img src="assets/research-stack-visual.png" alt="Research stack visual: stochastic differential equations, natural image segmentation, Bayesian observer vision, expected-value pricing, and research systems" width="100%">
 </p>
 
 **Keywords:** stochastic differential equations, stochastic processes, stochastic normalization, Bayesian inference, neural variability, V1 dynamics, natural image segmentation, Bayesian observer models, efficient coding, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, MLE, time series.
