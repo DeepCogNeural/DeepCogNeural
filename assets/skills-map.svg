@@ -1,0 +1,147 @@
+<svg width="1600" height="760" viewBox="0 0 1600 760" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Core skills map</title>
+  <desc id="desc">A labeled skills map connecting stochastic differential equations, Bayesian observer models, natural image segmentation, expected value, game theory, market microstructure, and research systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FBF7EF"/>
+      <stop offset="0.58" stop-color="#F8F1E4"/>
+      <stop offset="1" stop-color="#F5EBDC"/>
+    </linearGradient>
+    <filter id="softShadow" x="-12%" y="-16%" width="124%" height="132%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#6B5D4D" flood-opacity="0.16"/>
+    </filter>
+    <style>
+      .font { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+      .title { fill: #171717; font-size: 42px; font-weight: 780; }
+      .subtitle { fill: #5E574E; font-size: 22px; }
+      .moduleTitle { fill: #111827; font-size: 25px; font-weight: 780; }
+      .moduleText { fill: #463F37; font-size: 18px; }
+      .moduleKey { fill: #6F7F4D; font-size: 17px; font-weight: 720; }
+      .small { fill: #4B5563; font-size: 15px; }
+      .accent { stroke: #D97757; }
+      .navy { stroke: #0B2447; }
+      .green { stroke: #6F7F4D; }
+      .sky { stroke: #38BDF8; }
+    </style>
+  </defs>
+
+  <rect width="1600" height="760" rx="30" fill="url(#bg)"/>
+  <path d="M0 112 H1600M0 252 H1600M0 392 H1600M0 532 H1600M0 672 H1600" stroke="#D8D0C1" stroke-width="1" stroke-opacity="0.46"/>
+  <path d="M200 0 V760M400 0 V760M600 0 V760M800 0 V760M1000 0 V760M1200 0 V760M1400 0 V760" stroke="#D8D0C1" stroke-width="1" stroke-opacity="0.32"/>
+
+  <g class="font">
+    <text x="60" y="76" class="title">Core skills map</text>
+    <text x="60" y="112" class="subtitle">Mathematical modeling across neural dynamics, Bayesian vision, computer vision, and probabilistic markets.</text>
+
+    <g transform="translate(70 152)">
+      <path d="M190 156 H245" stroke="#D97757" stroke-width="4" stroke-linecap="round"/>
+      <path d="M493 156 H548" stroke="#D97757" stroke-width="4" stroke-linecap="round"/>
+      <path d="M796 156 H851" stroke="#D97757" stroke-width="4" stroke-linecap="round"/>
+      <path d="M1099 156 H1154" stroke="#D97757" stroke-width="4" stroke-linecap="round"/>
+
+      <g filter="url(#softShadow)">
+        <rect x="0" y="0" width="260" height="500" rx="24" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+        <circle cx="130" cy="100" r="70" fill="#F7EFE2" stroke="#D8D0C1" stroke-width="1.5"/>
+        <path d="M56 116 C80 70 102 140 126 96 C150 52 176 118 204 74" class="navy" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M56 138 C82 110 108 164 132 128 C158 90 178 146 204 110" class="accent" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.78"/>
+        <circle cx="56" cy="116" r="7" fill="#0B2447"/>
+        <circle cx="56" cy="138" r="7" fill="#D97757"/>
+        <path d="M54 182 H206" stroke="#0B2447" stroke-width="4" stroke-linecap="round"/>
+
+        <text x="28" y="228" class="moduleTitle">Stochastic dynamics</text>
+        <text x="28" y="268" class="moduleText">Stochastic differential</text>
+        <text x="28" y="296" class="moduleText">equations and processes</text>
+        <text x="28" y="338" class="moduleText">Random input divided by</text>
+        <text x="28" y="366" class="moduleText">random normalization</text>
+        <text x="28" y="414" class="moduleKey">closed-form moments</text>
+        <text x="28" y="442" class="moduleKey">Fano dynamics, MLE</text>
+      </g>
+
+      <g filter="url(#softShadow)">
+        <rect x="303" y="0" width="260" height="500" rx="24" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+        <circle cx="433" cy="100" r="70" fill="#F7EFE2" stroke="#D8D0C1" stroke-width="1.5"/>
+        <rect x="374" y="50" width="118" height="76" rx="8" fill="#EFE7D8" stroke="#111827" stroke-opacity="0.55"/>
+        <path d="M384 111 L410 82 L427 100 L455 67 L484 111" stroke="#6F7F4D" stroke-width="4" fill="none"/>
+        <path d="M397 50 V126M429 50 V126M461 50 V126M374 74 H492M374 99 H492" stroke="#111827" stroke-opacity="0.16"/>
+        <path d="M382 154 C402 125 423 170 446 139 C466 111 481 148 497 124" class="navy" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M382 176 C407 151 425 190 449 164 C470 144 482 173 497 156" class="accent" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+        <text x="331" y="228" class="moduleTitle">Computer vision / V1</text>
+        <text x="331" y="268" class="moduleText">Natural image segmentation</text>
+        <text x="331" y="296" class="moduleText">and posterior uncertainty</text>
+        <text x="331" y="338" class="moduleText">Link image structure to</text>
+        <text x="331" y="366" class="moduleText">early visual dynamics</text>
+        <text x="331" y="414" class="moduleKey">V1 variability, latent state</text>
+        <text x="331" y="442" class="moduleKey">high-dimensional time series</text>
+      </g>
+
+      <g filter="url(#softShadow)">
+        <rect x="606" y="0" width="260" height="500" rx="24" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+        <circle cx="736" cy="100" r="70" fill="#F7EFE2" stroke="#D8D0C1" stroke-width="1.5"/>
+        <circle cx="701" cy="106" r="10" fill="#0B2447"/>
+        <path d="M644 70 L682 94M644 106 H682M644 142 L682 118M706 46 L714 86M714 152 L706 118" class="green" stroke-width="3" stroke-linecap="round"/>
+        <path d="M746 151 C758 92 800 92 812 151" class="green" stroke-width="4" fill="none"/>
+        <path d="M736 151 H826M779 61 V164" stroke="#111827" stroke-width="2" opacity="0.55"/>
+        <circle cx="779" cy="116" r="7" fill="#D97757"/>
+        <path d="M830 111 H857M857 111 L846 102M857 111 L846 120" stroke="#6F7F4D" stroke-width="4" stroke-linecap="round"/>
+
+        <text x="634" y="228" class="moduleTitle">Bayesian observer</text>
+        <text x="634" y="268" class="moduleText">Efficient-encoding prior</text>
+        <text x="634" y="296" class="moduleText">plus posterior inference</text>
+        <text x="634" y="338" class="moduleText">Optic flow to heading</text>
+        <text x="634" y="366" class="moduleText">and action reports</text>
+        <text x="634" y="414" class="moduleKey">VR/XR perception</text>
+        <text x="634" y="442" class="moduleKey">perception-action bias</text>
+      </g>
+
+      <g filter="url(#softShadow)">
+        <rect x="909" y="0" width="260" height="500" rx="24" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+        <circle cx="1039" cy="100" r="70" fill="#F7EFE2" stroke="#D8D0C1" stroke-width="1.5"/>
+        <path d="M969 148 C988 103 1013 70 1038 114 C1054 142 1070 123 1087 86" class="navy" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <circle cx="1040" cy="113" r="9" fill="#D97757"/>
+        <path d="M1040 64 V162" stroke="#D97757" stroke-width="2" stroke-dasharray="7 7"/>
+        <path d="M1102 65 H1144M1102 86 H1126M1102 107 H1152M1102 128 H1138M1102 149 H1118" stroke="#D97757" stroke-width="10"/>
+        <path d="M1102 173 H1148M1102 194 H1133M1102 215 H1123" stroke="#6F7F4D" stroke-width="10"/>
+
+        <text x="937" y="228" class="moduleTitle">Probabilistic decisions</text>
+        <text x="937" y="268" class="moduleText">Probabilistic inference</text>
+        <text x="937" y="296" class="moduleText">and expected value</text>
+        <text x="937" y="338" class="moduleText">Game theory and market</text>
+        <text x="937" y="366" class="moduleText">microstructure signals</text>
+        <text x="937" y="414" class="moduleKey">pricing, calibration</text>
+        <text x="937" y="442" class="moduleKey">risk and execution quality</text>
+      </g>
+
+      <g filter="url(#softShadow)">
+        <rect x="1212" y="0" width="260" height="500" rx="24" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+        <circle cx="1342" cy="100" r="70" fill="#F7EFE2" stroke="#D8D0C1" stroke-width="1.5"/>
+        <ellipse cx="1322" cy="52" rx="38" ry="16" fill="none" class="navy" stroke-width="4"/>
+        <path d="M1284 52 V122C1284 131 1301 138 1322 138C1343 138 1360 131 1360 122V52" class="navy" stroke-width="4" fill="none"/>
+        <path d="M1284 86C1284 95 1301 102 1322 102C1343 102 1360 95 1360 86" class="navy" stroke-width="3" fill="none"/>
+        <path d="M1378 73 C1416 90 1416 148 1378 164" class="navy" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M1378 73 L1388 65M1378 164 L1388 172" class="navy" stroke-width="4" stroke-linecap="round"/>
+        <rect x="1278" y="144" width="70" height="42" rx="5" fill="#FFFDF8" stroke="#0B2447" stroke-width="4"/>
+        <path d="M1288 174 H1338M1294 168 L1307 158 L1317 164 L1333 150" stroke="#6F7F4D" stroke-width="3" fill="none"/>
+        <circle cx="1390" cy="164" r="7" fill="#0B2447"/>
+        <circle cx="1430" cy="143" r="7" fill="#6F7F4D"/>
+        <circle cx="1436" cy="181" r="7" fill="#0B2447"/>
+        <path d="M1390 164 L1430 143L1436 181L1390 164" stroke="#0B2447" stroke-width="2" fill="none"/>
+
+        <text x="1240" y="228" class="moduleTitle">Research systems</text>
+        <text x="1240" y="268" class="moduleText">Python and SQL pipelines</text>
+        <text x="1240" y="296" class="moduleText">NumPy, SciPy, Pandas</text>
+        <text x="1240" y="338" class="moduleText">Backtests, demos, and</text>
+        <text x="1240" y="366" class="moduleText">post-trade attribution</text>
+        <text x="1240" y="414" class="moduleKey">research to production</text>
+        <text x="1240" y="442" class="moduleKey">validation loops</text>
+      </g>
+    </g>
+
+    <g transform="translate(70 694)">
+      <rect x="0" y="-42" width="1460" height="78" rx="18" fill="#FFFDF8" stroke="#D8D0C1" stroke-width="1.5"/>
+      <text x="28" y="-12" fill="#111827" font-size="20" font-weight="760">Searchable keywords:</text>
+      <text x="246" y="-12" fill="#463F37" font-size="17">stochastic differential equations, Bayesian observer models, efficient coding, natural image segmentation, V1 dynamics.</text>
+      <text x="246" y="16" fill="#463F37" font-size="17">expected value, game theory, market microstructure, settlement-labeled backtesting, research to production.</text>
+    </g>
+  </g>
+</svg>
