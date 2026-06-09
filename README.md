@@ -12,21 +12,24 @@ The common thread is **quantitative problem decomposition**: turning hard, noisy
 
 My current research focus is **dynamic stochastic normalization**: how neural variability evolves when both the input drive and the normalization signal are random variables, and how to analytically infer not only variability but also its dynamics.
 
+I also build open-source agent tooling for the same reason: complex work should end as something a person can read and a future agent can verify.
+
 <p>
   Email: linghaoxu11 [at] gmail [dot] com |
   <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147">PLOS Computational Biology</a> |
   <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/">Journal of Vision</a> |
   <a href="https://github.com/DeepCogNeural/bayesian-heading-observer">Observer code</a> |
-  <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">Public V1 code</a>
+  <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">Public V1 code</a> |
+  <a href="https://github.com/DeepCogNeural/html-artifact-report-skill">Agent report skill</a>
 </p>
 
 <p>
   <img src="assets/skills-map.svg" alt="Core skills map: stochastic differential equations, Bayesian observer models, natural image segmentation, expected value, game theory, market microstructure, and research systems" width="100%">
 </p>
 
-**Keywords:** stochastic differential equations, stochastic processes, stochastic normalization, Bayesian inference, neural variability, V1 dynamics, natural image segmentation, Bayesian observer models, efficient coding, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, MLE, time series.
+**Keywords:** stochastic differential equations, stochastic processes, stochastic normalization, Bayesian inference, neural variability, V1 dynamics, natural image segmentation, Bayesian observer models, efficient coding, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, agent skills, HTML artifacts, JSON manifests, MLE, time series.
 
-**Tool kit:** Python, SQL, NumPy, SciPy, Pandas.
+**Tool kit:** Python, SQL, NumPy, SciPy, Pandas, HTML/CSS, JSON Schema.
 
 ## Selected work
 
@@ -72,6 +75,24 @@ This line of work is directly relevant to VR/XR navigation and human-in-the-loop
 
 **Links:** [Observer code](https://github.com/DeepCogNeural/bayesian-heading-observer) | [PLOS Computational Biology 2025](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147) | [Journal of Vision 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/)
 
+### Open-source agent report systems
+
+<p>
+  <a href="https://github.com/DeepCogNeural/html-artifact-report-skill">
+    <img src="assets/card-html-artifact-report-classic.svg" alt="HTML Artifact Report Skill" width="100%">
+  </a>
+</p>
+
+**Summary:** I build file-based agent tooling that turns notes or Markdown into a readable standalone HTML report plus an auditable JSON manifest.
+
+**Highlight:** the design separates two jobs that often get mixed together: HTML is the reading surface for people; JSON is the structured interface for future agents, automation, diffing, and verification.
+
+The project packages this as an open-source agent skill with a public contract, golden examples, schema validation, and checker-enforced alignment between visible HTML sections/components and JSON manifest IDs. It is meant for substantial agent outputs where chat or a Markdown wall is not enough: decision briefs, research reports, technical reviews, incident writeups, strategy memos, and data-heavy summaries.
+
+The engineering idea is the same as my research work: define the contract, keep the latent structure explicit, and verify that the output still matches the evidence instead of trusting a polished surface.
+
+**Public code:** [html-artifact-report-skill](https://github.com/DeepCogNeural/html-artifact-report-skill)
+
 ### Research-to-market probabilistic pricing
 
 <p>
@@ -101,6 +122,7 @@ This is the same research loop I use in science: define the latent variable, ide
 | Neural dynamics | Divisive normalization, latent-state estimation, Fano-factor dynamics, non-stationary neural time series |
 | Vision and VR/XR perception | Bayesian observer models, optic flow, heading perception, perception-action bias, serial dependence |
 | Research systems | Python, NumPy/SciPy/Pandas, SQL/SQLite, Parquet, REST/WebSocket data collection, offline evaluation |
+| Agent tooling | HTML artifact reports, JSON manifests, schema validation, golden examples, CI checkers |
 | Quant research | Digging alpha, probabilistic pricing, expected value, market microstructure, settlement-labeled backtests |
 | Research to production | Data pipelines, offline evaluation, live pilots, execution attribution, failure-analysis loops |
 
@@ -112,4 +134,4 @@ I am looking for internships on two tracks.
 
 **Tech research / applied science:** roles in vision, VR/XR perception, neural dynamics, and uncertainty-aware decision systems where mathematical modeling and end-to-end research systems both matter.
 
-Across both tracks, my strongest fit is work that rewards general mathematical modeling ability: turning hard, noisy questions into latent variables, uncertainty estimates, expected values, and evaluation loops that hold up under validation.
+Across both tracks, my strongest fit is work that rewards general mathematical modeling ability: turning hard, noisy questions into latent variables, uncertainty estimates, expected values, readable artifacts, and evaluation loops that hold up under validation.
