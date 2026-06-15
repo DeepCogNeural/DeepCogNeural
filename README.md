@@ -14,7 +14,7 @@ My current research focus is **dynamic stochastic normalization**: how neural va
 
 I also build open-source agent tooling for the same reason: complex work should end as something a person can read and a future agent can verify.
 
-Recent open-source work: merged PMXT prediction-market SDK fixes ([#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065)); Polymarket CLI [#83](https://github.com/Polymarket/polymarket-cli/pull/83) and cryptofeed [#1115](https://github.com/bmoscon/cryptofeed/pull/1115) are under review.
+**Recent open-source work:** PMXT merged two prediction-market SDK fixes ([#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065)); open PRs target Polymarket CLI event defaults ([#83](https://github.com/Polymarket/polymarket-cli/pull/83)) and cryptofeed Poloniex trade parsing ([#1115](https://github.com/bmoscon/cryptofeed/pull/1115)).
 
 <p>
   Email: linghaoxu11 [at] gmail [dot] com |
