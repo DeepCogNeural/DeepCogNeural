@@ -14,7 +14,9 @@ My current research focus is **dynamic stochastic normalization**: how neural va
 
 I also build open-source agent tooling for the same reason: complex work should end as something a person can read and a future agent can verify.
 
-**Recent open-source work:** PMXT merged two prediction-market SDK fixes ([#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065)); open PRs target Polymarket CLI event defaults ([#83](https://github.com/Polymarket/polymarket-cli/pull/83)) and cryptofeed Poloniex trade parsing ([#1115](https://github.com/bmoscon/cryptofeed/pull/1115)).
+**Recent external open-source work:** PMXT merged two prediction-market SDK fixes ([#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065)), and Filecoin Lotus merged a node-operator CLI/configuration warning fix ([#13670](https://github.com/filecoin-project/lotus/pull/13670)).
+
+**Open PRs under review:** Polymarket CLI event defaults ([#83](https://github.com/Polymarket/polymarket-cli/pull/83)), cryptofeed market-data parser/auth-boundary fixes ([#1115](https://github.com/bmoscon/cryptofeed/pull/1115), [#1116](https://github.com/bmoscon/cryptofeed/pull/1116)), The Graph CLI validation ([#2141](https://github.com/graphprotocol/graph-tooling/pull/2141)), rust-bitcoin test-infrastructure path sharing ([#170](https://github.com/rust-bitcoin/bitcoind/pull/170)), and Lightning channel-policy API visibility ([#4731](https://github.com/lightningdevkit/rust-lightning/pull/4731)).
 
 <p>
   Email: linghaoxu11 [at] gmail [dot] com |
