@@ -33,7 +33,7 @@ I also build open-source agent tooling for the same reason: complex work should 
 
 **Keywords:** stochastic differential equations, stochastic processes, stochastic normalization, Bayesian inference, neural variability, V1 dynamics, natural image segmentation, Bayesian observer models, efficient coding, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, agent skills, HTML artifacts, JSON manifests, MLE, time series.
 
-**Tool kit:** Python, SQL, NumPy, SciPy, Pandas, HTML/CSS, JSON Schema.
+**Tool kit:** Python, PyTorch, MATLAB, R, SQL, NumPy, SciPy, Pandas, HTML/CSS, JSON Schema.
 
 ## Selected work
 
