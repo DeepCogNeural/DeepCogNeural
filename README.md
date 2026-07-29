@@ -111,11 +111,6 @@ Built a research-driven trading framework for Polymarket weather markets, treati
 
 This is the same research loop I use in science: define the latent variable, identify the source of noise, build a measurable model, backtest against final labels, and use failures as data for the next iteration. The live pilot is intentionally small-capital, which makes capital efficiency and execution attribution more informative than raw dollar P&L.
 
-<p>
-  <img src="assets/polymarket-performance-classic.svg" alt="Anonymized Polymarket live-pilot performance snapshot" width="100%">
-</p>
-
-**Public-safe snapshot:** return is measured against the user-provided $50 initial stake; the current public snapshot date is 2026-06-07 UTC. Source account data refreshes every 15 minutes, but this public GitHub image updates only when the generator is rerun and pushed. The JSON keeps only rounded date-level returns. [Sanitized metrics JSON](assets/polymarket-performance.json)
 
 ## Research profile
 
