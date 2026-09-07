@@ -1,142 +1,76 @@
-<p align="center">
-  <img src="assets/profile-header-classic.svg" alt="Analytical modeling for noisy systems" width="100%">
-</p>
-
 # Linghao Xu
 
-I am a Ph.D. researcher in computational neuroscience in Dr. Ruben Coen-Cagli's lab at Albert Einstein College of Medicine. My earlier perception research was with Prof. Alan Stocker at the University of Pennsylvania.
+**Quantitative research · Market microstructure · Statistical inference**
 
-My background is mathematics-heavy: stochastic-process modeling, Bayesian inference, efficient coding, closed-form moment derivations, maximum-likelihood estimation, and empirical validation on neural, behavioral, and market data.
+I build probabilistic models and research systems for decisions under uncertainty: from stochastic neural dynamics to market making and execution. I am a computational neuroscience Ph.D. researcher at **Albert Einstein College of Medicine**, with a minor in applied mathematics and statistics and a B.S. in mathematics.
 
-The common thread is **quantitative problem decomposition**: turning hard, noisy questions into estimable pieces, choosing a probabilistic model, quantifying uncertainty, and validating whether the model actually explains the data.
+My primary focus is **quantitative research and trading**. I also work on causal experiments in machine learning and practical research tools.
 
-My current research focus is **dynamic stochastic normalization**: how neural variability evolves when both the input drive and the normalization signal are random variables, and how to analytically infer not only variability but also its dynamics.
+[Quant projects](#quantitative-research--trading) · [Research](#mathematical-research) · [Merged contributions](#open-source-contributions) · [Email](mailto:linghaoxu11@gmail.com)
 
-I also build open-source agent tooling for the same reason: complex work should end as something a person can read and a future agent can verify.
+## Quantitative research & trading
 
-**Recent external open-source work:** PMXT merged three prediction-market SDK fixes ([#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065), [#1290](https://github.com/pmxt-dev/pmxt/pull/1290)), and Filecoin Lotus merged a node-operator CLI/configuration warning fix ([#13670](https://github.com/filecoin-project/lotus/pull/13670)).
+### [Binary-options market making](https://github.com/DeepCogNeural/quant-trading-challenge-2026-case-study)
 
-**Open/submitted work:** Stratum V2 frame-header API simplification ([#2211](https://github.com/stratum-mining/stratum/pull/2211), companion [sv2-apps #584](https://github.com/stratum-mining/sv2-apps/pull/584)), Polymarket CLI event defaults ([#83](https://github.com/Polymarket/polymarket-cli/pull/83)), cryptofeed market-data parser/auth-boundary fixes ([#1115](https://github.com/bmoscon/cryptofeed/pull/1115), [#1116](https://github.com/bmoscon/cryptofeed/pull/1116)), The Graph CLI validation ([#2141](https://github.com/graphprotocol/graph-tooling/pull/2141)), rust-bitcoin test-infrastructure path sharing ([#170](https://github.com/rust-bitcoin/bitcoind/pull/170)), and Lightning channel-policy API visibility ([GitHub #4731 migrated to rust-bitcoin Gitea](https://git.rust-bitcoin.org/lightningdevkit/rust-lightning/pulls/4731)).
+A Python market maker combining rate-transition models, conditional return distributions, and cross-company residual covariance. Estimated probabilities become quotes and sizes subject to uncertainty, inventory, and capital limits.
 
-<p>
-  Email: linghaoxu11 [at] gmail [dot] com |
-  <a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147">PLOS Computational Biology</a> |
-  <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/">Journal of Vision</a> |
-  <a href="https://github.com/DeepCogNeural/bayesian-heading-observer">Observer code</a> |
-  <a href="https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty">Public V1 code</a> |
-  <a href="https://github.com/DeepCogNeural/html-artifact-report-skill">Agent report skill</a>
-</p>
+**Akuna Challenge 2026: 15.70/16 strategy points · 20/20 evaluation cases passed · zero bankruptcies.** These are captured simulation results, not a competition ranking or live return. The public case study covers the modeling approach and results without disclosing challenge materials or submission code.
 
-<p>
-  <img src="assets/skills-map.svg" alt="Core skills map: stochastic differential equations, Bayesian observer models, natural image segmentation, expected value, game theory, market microstructure, and research systems" width="100%">
-</p>
+### [Market microstructure lab](https://github.com/DeepCogNeural/microstructure-lab)
 
-**Keywords:** stochastic differential equations, stochastic processes, stochastic normalization, Bayesian inference, neural variability, V1 dynamics, natural image segmentation, Bayesian observer models, efficient coding, optic flow, heading perception, VR/XR perception, perception-action bias, probabilistic pricing, expected value, market microstructure, settlement-labeled backtesting, agent skills, HTML artifacts, JSON manifests, MLE, time series.
+An open-source research scaffold for central limit order books: deterministic Level-2 replay, features available at decision time, future-midpoint labels, purged walk-forward evaluation, and negative controls. A visible-depth cost sweep makes execution assumptions explicit.
 
-**Tool kit:** Python, PyTorch, MATLAB, R, SQL, NumPy, SciPy, Pandas, HTML/CSS, JSON Schema.
+**What it demonstrates:** data causality, reproducible event reconstruction, and cost-aware evaluation. The shipped sample is synthetic; it establishes pipeline behavior rather than trading profitability.
 
-## Selected work
+### Independent trading research
 
-### Dynamic Stochastic Divisive Normalization
+I develop and operate a prediction-market research and execution system, with settlement-based evaluation, inventory-aware market making, and post-trade attribution. My research asks whether an apparent entry signal survives uncertainty analysis, and separates trading outcomes from venue incentives.
 
-<p>
-  <img src="assets/card-dsdn-classic.svg" alt="Dynamic Stochastic Divisive Normalization" width="100%">
-</p>
+I have also traded SK Hynix relative value across Korean shares, USD-settled perpetual futures, and the U.S. ADR, studying funding, hedge construction, convergence, and financing constraints. Trading code and account records remain private.
 
-**Summary:** I build analytical models for neural systems where both the signal and the normalization pool are noisy and time-varying.
+## Mathematical research
 
-**Highlight:** this is the core research thread behind my V1 work: dynamic stochastic equations for normalization-style models, closed-form variability predictions, and likelihood-based fitting to neural data.
+My research centers on **stochastic processes, latent-state inference, and likelihood-based estimation**. In Ruben Coen-Cagli's lab, I develop continuous-time normalization models with stochastic input and volatility, derive moment approximations, and fit response dynamics to neural data.
 
-My core research develops a dynamic stochastic normalization model for neural time series. The central problem is mathematically simple to state but difficult to solve: neural response is modeled as a ratio where both the numerator and the denominator are random, time-varying signals.
+- **[Probabilistic segmentation & neural dynamics](https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty)** — public research code connecting natural-image structure, inferred uncertainty, and early visual cortical dynamics.
+- **[Bayesian observer models](https://github.com/DeepCogNeural/bayesian-heading-observer)** — efficient sensory encoding, Bayesian inference, and perception-to-action mapping; Python demo and original MATLAB code from my perception research with Alan Stocker at UPenn.
 
-Rather than treating variability as simulation noise, I derive analytical predictions for response mean, variance, Fano-factor dynamics, and peak-variability timing. I then fit these dynamics to high-dimensional neural data with maximum-likelihood estimation.
+**Selected publications:** co-first author, [*PLOS Computational Biology* (2025)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147), on response-range-dependent heading biases; first author, [*Journal of Vision* (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/), on serial dependence in heading perception.
 
-My public V1 repository is a cleaned research-code view of a collaborative project connecting natural-image segmentation, posterior uncertainty, and early visual cortical dynamics. The part most aligned with my own contribution is not generic image segmentation; it is analytical modeling of neural dynamics and variability: posterior moments, firing-rate dynamics, Fano-factor decay, and how natural-image structure can organize response heterogeneity.
+## Open-source contributions
 
-**Keywords:** stochastic processes, ratio of random variables, Gaussian-process modeling, closed-form moments, latent-state estimation, MLE, neural variability.
+**Four merged external upstream PRs** across prediction-market infrastructure and node tooling. Status checked September 7, 2026.
 
-**Public code:** [sun-v1-segmentation-uncertainty](https://github.com/DeepCogNeural/sun-v1-segmentation-uncertainty)
+| Project | Contribution | Merged PRs |
+| :--- | :--- | :--- |
+| **PMXT** | SDK alias compatibility and forwarding optional order parameters | [#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065), [#1290](https://github.com/pmxt-dev/pmxt/pull/1290) |
+| **Filecoin Lotus** | CLI warning when an API flag overrides the configured listen address | [#13670](https://github.com/filecoin-project/lotus/pull/13670) |
 
-### Bayesian observer models for visual perception
+<details>
+<summary>Other contributions and current status</summary>
 
-<p>
-  <a href="https://github.com/DeepCogNeural/bayesian-heading-observer">
-    <img src="assets/card-vision-classic.svg" alt="Bayesian observer models for optic-flow perception" width="100%">
-  </a>
-</p>
+- **Open:** Stratum V2 [#2211](https://github.com/stratum-mining/stratum/pull/2211) and companion [sv2-apps #584](https://github.com/stratum-mining/sv2-apps/pull/584); Polymarket CLI [#83](https://github.com/Polymarket/polymarket-cli/pull/83); The Graph [#2141](https://github.com/graphprotocol/graph-tooling/pull/2141); rust-bitcoin [#170](https://github.com/rust-bitcoin/bitcoind/pull/170).
+- **Closed, not merged:** cryptofeed [#1115](https://github.com/bmoscon/cryptofeed/pull/1115) and [#1116](https://github.com/bmoscon/cryptofeed/pull/1116).
+- **Collaboration project:** ColaMD search and LaTeX support, merged [#14](https://github.com/marswaveai/ColaMD/pull/14); listed separately from the four upstream PRs above.
 
-**Summary:** I model how humans infer heading direction from optic flow, and why the final action/report can be biased even when sensory inference is statistically efficient.
+Statuses are a dated snapshot, not a live feed.
 
-**Highlight:** this gives a production-relevant way to reason about VR/XR navigation: separate sensory encoding, Bayesian inference, memory, and perception-to-action mapping instead of treating user bias as an unexplained behavioral artifact.
+</details>
 
-I study human vision as an inference-and-action system. In optic-flow heading perception, humans do not simply report a sensory estimate; their responses reflect efficient sensory coding, Bayesian priors, and a mapping from perceptual estimates to action reports.
+## ML experiments & research tools
 
-**Co-first author:** 2025 PLOS Computational Biology paper showing that response-range-dependent heading biases can be explained by an efficient Bayesian observer plus a linear perception-action mapping.
+**[Mechanistic interpretability lab](https://github.com/DeepCogNeural/mech-interp-lab)** — causal interventions in GPT-2-small, matched controls, and explicit decision rules. The public record includes null and inconclusive results alongside a bounded causal-subspace study; compact evidence is available, while full reruns require additional source artifacts.
 
-**First author:** 2022 Journal of Vision paper showing attractive serial dependence in heading perception from optic flow.
+Tools I build for research workflows: **[taskdone-runner](https://github.com/DeepCogNeural/taskdone-runner)** for background-task notifications and review tracking; **[HTML report skill](https://github.com/DeepCogNeural/html-artifact-report-skill)** for readable reports with structured evidence; **[Codex Quota Bar](https://github.com/DeepCogNeural/codex-quota-bar)** for a native macOS view of subscription quotas ([interactive preview](https://codex-quota-bar.sheyajane.chatgpt.site/)).
 
-This line of work is directly relevant to VR/XR navigation and human-in-the-loop systems because it explains where behavioral bias enters: sensory encoding, prior integration, memory, or the final action/report stage. That matters for systems where a user must perceive self-motion, maintain heading, and turn perception into action under uncertainty.
+## Recent updates
 
-**Links:** [Observer code](https://github.com/DeepCogNeural/bayesian-heading-observer) | [PLOS Computational Biology 2025](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147) | [Journal of Vision 2022](https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/)
+- **September 2026:** published taskdone-runner and added Codex Quota Bar to the public tool portfolio.
+- **August 2026:** published the [quant trading challenge case study](https://github.com/DeepCogNeural/quant-trading-challenge-2026-case-study) and expanded the [causal-subspace research record](https://github.com/DeepCogNeural/mech-interp-lab/tree/main/experiments/05_number_agreement_circuit).
+- **June–July 2026:** four upstream PRs merged into PMXT and Filecoin Lotus.
 
-### Open-source agent report systems
+---
 
-<p>
-  <a href="https://github.com/DeepCogNeural/html-artifact-report-skill">
-    <img src="assets/card-html-artifact-report-classic.svg" alt="HTML Artifact Report Skill" width="100%">
-  </a>
-</p>
-
-**Summary:** I build file-based agent tooling that turns notes or Markdown into a readable standalone HTML report plus an auditable JSON manifest.
-
-**Highlight:** the design separates two jobs that often get mixed together: HTML is the reading surface for people; JSON is the structured interface for future agents, automation, diffing, and verification.
-
-The project packages this as an open-source agent skill with a public contract, golden examples, schema validation, and checker-enforced alignment between visible HTML sections/components and JSON manifest IDs. It is meant for substantial agent outputs where chat or a Markdown wall is not enough: decision briefs, research reports, technical reviews, incident writeups, strategy memos, and data-heavy summaries.
-
-The engineering idea is the same as my research work: define the contract, keep the latent structure explicit, and verify that the output still matches the evidence instead of trusting a polished surface.
-
-**Public code:** [html-artifact-report-skill](https://github.com/DeepCogNeural/html-artifact-report-skill)
-
-### Research-to-market probabilistic pricing
-
-<p>
-  <img src="assets/card-polymarket-classic.svg" alt="Research-to-market probabilistic pricing" width="100%">
-</p>
-
-**Summary:** I treat prediction-market contracts as probabilistic pricing problems, not simple forecasting bets.
-
-**Highlight:** this is my research-to-production loop: find market alpha, test it with final-settlement labels, measure execution quality, and feed fills, misses, and realized outcomes back into the next research cycle.
-
-Built a research-driven trading framework for Polymarket weather markets, treating each contract as a probabilistic pricing and execution problem. The system studies event-probability mispricings from weather observation lag, order-book repricing, and microstructure behavior; validates hypotheses with final-settlement-labeled backtests; and uses post-trade attribution to analyze expected value, execution quality, missed fills, and realized outcomes.
-
-This is the same research loop I use in science: define the latent variable, identify the source of noise, build a measurable model, backtest against final labels, and use failures as data for the next iteration. The live pilot is intentionally small-capital, which makes capital efficiency and execution attribution more informative than raw dollar P&L.
-
-
-## Research profile
-
-| Area | What I work on |
-| --- | --- |
-| Quantitative problem decomposition | Break hard signal, behavior, and market questions into latent variables, uncertainty estimates, validation protocols, and decision rules |
-| Mathematical modeling | Stochastic processes, ratio distributions, closed-form moment derivations, optimization, MLE |
-| Neural dynamics | Divisive normalization, latent-state estimation, Fano-factor dynamics, non-stationary neural time series |
-| Vision and VR/XR perception | Bayesian observer models, optic flow, heading perception, perception-action bias, serial dependence |
-| Research systems | Python, NumPy/SciPy/Pandas, SQL/SQLite, Parquet, REST/WebSocket data collection, offline evaluation |
-| Agent tooling | HTML artifact reports, JSON manifests, schema validation, golden examples, CI checkers |
-| Quant research | Digging alpha, probabilistic pricing, expected value, market microstructure, settlement-labeled backtests |
-| Research to production | Data pipelines, offline evaluation, live pilots, execution attribution, failure-analysis loops |
-
-## What I am looking for
-
-I am looking for internships on two tracks.
-
-**Quant research / trading:** roles where I can dig alpha from noisy market data, turn hypotheses into probabilistic signals, backtest against final labels, and improve decision quality through execution and risk analysis.
-
-**Tech research / applied science:** roles in vision, VR/XR perception, neural dynamics, and uncertainty-aware decision systems where mathematical modeling and end-to-end research systems both matter.
-
-Across both tracks, my strongest fit is work that rewards general mathematical modeling ability: turning hard, noisy questions into latent variables, uncertainty estimates, expected values, readable artifacts, and evaluation loops that hold up under validation.
-
-## Codex Quota Bar
-
-A compact macOS quota view for multiple Codex subscriptions, integrating CodexBar and Subrouter. Optional native controls select the account for new chats; separate 5h/weekly views keep each subscription clear.
-
-[Explore the interactive preview](https://codex-quota-bar.sheyajane.chatgpt.site/) · [Source and installation](https://github.com/DeepCogNeural/codex-quota-bar) · [Star if useful](https://github.com/DeepCogNeural/codex-quota-bar)
+**Core tools:** Python · NumPy / SciPy / pandas · SQL · PyTorch · MATLAB / R  
+**Engineering contributions:** TypeScript · Go  
+**Contact:** [linghaoxu11@gmail.com](mailto:linghaoxu11@gmail.com) · Ph.D. expected December 2027
