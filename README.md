@@ -139,4 +139,4 @@ Across both tracks, my strongest fit is work that rewards general mathematical m
 
 A compact macOS quota view for multiple Codex subscriptions, integrating CodexBar and Subrouter. Optional native controls select the account for new chats; separate 5h/weekly views keep each subscription clear.
 
-[Explore the interactive preview](https://codex-quota-bar.quick-trail-8960.chatgpt.site/) · [Source and installation](https://github.com/DeepCogNeural/codex-quota-bar) · [Star if useful](https://github.com/DeepCogNeural/codex-quota-bar)
+[Explore the interactive preview](https://codex-quota-bar.sheyajane.chatgpt.site/) · [Source and installation](https://github.com/DeepCogNeural/codex-quota-bar) · [Star if useful](https://github.com/DeepCogNeural/codex-quota-bar)
