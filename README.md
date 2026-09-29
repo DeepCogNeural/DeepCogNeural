@@ -4,7 +4,7 @@
 
 I am a **Computational Neuroscience Ph.D. researcher at Albert Einstein College of Medicine**, with a B.S. in mathematics and a minor in applied mathematics and statistics. My primary focus is **computational neuroscience and probabilistic modeling**, with applications to quantitative research and market microstructure.
 
-[Academic research](#academic-research) · [Market microstructure](#market-microstructure-lab) · [Open source](#open-source-contributions) · [Email](mailto:linghaoxu11@gmail.com)
+[Academic research](#academic-research) · [Market microstructure](#market-microstructure-lab) · [Open source](#open-source-contributions)
 
 **Published work:** [PLOS Computational Biology (2025)](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013147) · [Journal of Vision (2022)](https://pmc.ncbi.nlm.nih.gov/articles/PMC9652722/)
 
@@ -29,9 +29,12 @@ Reconstructed limit order books for five Warsaw Stock Exchange equities and eval
 
 | Project | Contribution | Public record |
 | :--- | :--- | :--- |
+| **cryptofeed** | Fixed Poloniex trade quantities and processing of batched trade messages | Merged: [#1139](https://github.com/bmoscon/cryptofeed/pull/1139) |
 | **PMXT** | Prediction-market SDK compatibility and optional order parameters | Merged: [#1064](https://github.com/pmxt-dev/pmxt/pull/1064), [#1065](https://github.com/pmxt-dev/pmxt/pull/1065), [#1290](https://github.com/pmxt-dev/pmxt/pull/1290) |
 | **Filecoin Lotus** | CLI diagnostics when a flag overrides the configured API address | Merged: [#13670](https://github.com/filecoin-project/lotus/pull/13670) |
 | **ColaMD** (collaboration project) | Search and LaTeX support | Merged: [#14](https://github.com/marswaveai/ColaMD/pull/14) |
+
+**In development:** [array-api-extra #1001](https://github.com/data-apis/array-api-extra/pull/1001) — proposed one-dimensional interpolation across Array API namespaces. Draft PR; not yet merged.
 
 ### Codex Quota Bar
 
@@ -46,4 +49,4 @@ My independent trading work spans prediction-market execution and cross-market r
 ---
 
 **Tools:** Python · C++ · SQL · NumPy / SciPy / pandas · PyTorch · MATLAB  
-[Email](mailto:linghaoxu11@gmail.com) · Ph.D. expected December 2027
+Ph.D. expected December 2027
